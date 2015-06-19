@@ -1,0 +1,92 @@
+Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.19 08:47,IDD_Version 8.2.0
+   ** Warning ** IP: Note -- Some missing fields have been filled with defaults. See the audit output file for details.
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** GetHTSurfaceData: Surfaces with interface to Ground found but no "Ground Temperatures" were input.
+   **   ~~~   ** Found first in surface=SURFACE 12
+   **   ~~~   ** Defaults, constant throughout the year of (18.0) will be used.
+   ** Warning ** CalcSurfaceCentroid: 16 Surfaces have the Z coordinate < 0.
+   **   ~~~   ** ...in any calculations, Wind Speed will be 0.0 for these surfaces.
+   **   ~~~   ** ...in any calculations, Outside temperatures will be the outside temperature + 9.750E-003 for these surfaces.
+   **   ~~~   ** ...that is, these surfaces will have conditions as though at ground level.
+   ** Warning ** CheckUsedConstructions: There are 4 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ************* Beginning System Sizing Calculations
+   ** Severe  ** Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 1", Design Specification Outdoor Air Object Name blank
+   **   ~~~   ** For Zone="FIRST FLOOR".
+   **   ~~~   ** This field either needs to be filled in in this object or Sizing:Zone object.
+   **   ~~~   ** For this run, default values for these fields will be used.
+   ** Severe  ** Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 1", Design Specification Outdoor Air Object Name blank
+   **   ~~~   ** For Zone="SECOND FLOOR".
+   **   ~~~   ** This field either needs to be filled in in this object or Sizing:Zone object.
+   **   ~~~   ** For this run, default values for these fields will be used.
+   ** Severe  ** Sizing: Coil:Cooling:DX:SingleSpeed "1 SPD DX CLG COIL": Rated air volume flow rate per watt of rated total cooling capacity is out of range.
+   **   ~~~   ** Min Rated Vol Flow Per Watt=[4.027E-005], Rated Vol Flow Per Watt=[1.610E-004], Max Rated Vol Flow Per Watt=[6.041E-005]. See Input Output Reference Manual for valid range.
+   ** Warning ** Output:Meter: invalid Name="GAS:FACILITY" - not found.
+   ** Warning ** Output:Meter: invalid Name="DISTRICTCOOLING:FACILITY" - not found.
+   ** Warning ** Output:Meter: invalid Name="DISTRICTHEATING:FACILITY" - not found.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="1 SPD DX CLG COIL" - Air volume flow rate per watt of rated total cooling capacity is out of range at 1.780E-004 m3/s/W.
+   **   ~~~   **  Environment=DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB, at Simulation time=07/21 06:10 - 06:20
+   **   ~~~   ** Expected range for VolumeFlowPerRatedTotalCapacity=[2.684E-005--6.713E-005]
+   **   ~~~   ** Possible causes include inconsistent air flow rates in system components,
+   **   ~~~   ** or variable air volume [VAV] system using incorrect coil type.
+   ** Warning ** Enthalpy out of range (PsyTsatFnHPb)
+   **   ~~~   **  Routine=CalcDoe2DXCoil, Environment=DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB, at Simulation time=07/21 06:10 - 06:20
+   **   ~~~   **  Enthalpy=-159872.65590 Pressure= 81198.00
+   **   ~~~   **  Initial Resultant Temperature= -59.98
+   ** Warning ** Temperature out of range [-100. to 200.] (PsyPsatFnTemp)
+   **   ~~~   **  Routine=PsyWFnTdbTwbPb, Environment=DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB, at Simulation time=07/21 06:10 - 06:20
+   **   ~~~   **  Input Temperature=-176.51
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "1 SPD DX CLG COIL" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -176.90 C.
+   **   ~~~   **  ...Occurrence info = DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB, 07/21 06:10 - 06:20
+   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
+   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 22.264 C.
+   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
+   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
+   ************* Simulation Error Summary *************
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="1 SPD DX CLG COIL" - Air volume flow rate per watt of rated total cooling capacity is out of range error continues...
+   *************  **   ~~~   **   This error occurred 38520 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.843966E-004  Min=4.609203E-006
+   *************
+   *************  ** Warning ** Enthalpy out of range (PsyTsatFnHPb)
+   *************  **   ~~~   **   This error occurred 454708 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=-42408.844898 J/kg  Min=-175835.912112 J/kg
+   *************
+   *************  ** Warning ** Temperature out of range [-100. to 200.] (PsyPsatFnTemp)
+   *************  **   ~~~   **   This error occurred 58588 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=-100.080887 C  Min=-192.78788 C
+   *************
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="1 SPD DX CLG COIL" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
+   *************  **   ~~~   **   This error occurred 8960 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=-146.296984  Min=-192.786998
+   *************
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 3 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 560783 Warning; 3 Severe Errors; Elapsed Time=00hr 00min 35.00sec

@@ -1,0 +1,801 @@
+[utilities.bcl.BCLMeasure] <-2> Loading measures in path: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/CalibrationReports
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/CalibrationReports
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReplaceModel
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReplaceModel
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports
+[openstudio.runmanager.RubyJobUtils] <-1> Adding input file of type: IDF to be copied to in.idf
+[openstudio.runmanager.RubyJobUtils] <-1> Copying all required files from IDF to IDF
+[openstudio.runmanager.RubyJobUtils] <-1> Skipping file, already exists as a required file: C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb
+[utilities.bcl.BCLMeasure] <-2> Loading measures in path: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/CalibrationReports
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/CalibrationReports
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReplaceModel
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReplaceModel
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports
+[openstudio.runmanager.RubyJobUtils] <1> Input file type is "Unknown" unable to add it.
+[openstudio.runmanager.RubyJobUtils] <-1> Skipping file, already exists as a required file: C:/working/misc/FurnaceReplacement/scripts/StandardReports/measure.rb
+[openstudio.completePathToFile] <-1> Path 'C:/Program Files/OpenStudio 1.7.0/*.osm' could not be resolved to an existing file. Returning an empty path.
+[utilities.bcl.BCLMeasure] <-2> Loading measures in path: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/CalibrationReports
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/CalibrationReports
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReplaceModel
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReplaceModel
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports
+[utilities.bcl.BCLMeasure] <-2> Loading measures in path: C:/working/misc/Measures
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/working/misc/Measures/furnace_options
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/working/misc/Measures/furnace_options
+[openstudio.completePathToFile] <-1> Path 'C:/Program Files/OpenStudio 1.7.0/*.osm' could not be resolved to an existing file. Returning an empty path.
+[openstudio.completePathToFile] <-1> Path 'C:/Program Files/OpenStudio 1.7.0/*.osm' could not be resolved to an existing file. Returning an empty path.
+[openstudio.osversion.VersionTranslator] <-2> Starting translation from Version 1.7.0.
+[openstudio.osversion.VersionTranslator] <-2> Initial model has 609 objects.
+[openstudio.osversion.VersionTranslator] <-2> Final model has 609 objects in IDF form.
+[utilities.idf.Workspace] <-2> Workspace::isValid called.
+[openstudio.osversion.VersionTranslator] <-2> Final model has 609 objects in Model form.
+[utilities.idd.IddField] <-1> Field 'Zone Heating Design Supply Air Temperature Input Method' of object 'Sizing:Zone' is both required and has default value, setting required = false.
+[utilities.idd.IddField] <-1> Field 'Zone Cooling Design Supply Air Temperature Input Method' of object 'Sizing:Zone' is both required and has default value, setting required = false.
+[utilities.idd.IddField] <-1> Field 'Central Heating Design Supply Air Humidity Ratio' of object 'Sizing:System' is both required and has default value, setting required = false.
+[utilities.idd.IddField] <-1> Field 'Central Cooling Design Supply Air Humidity Ratio' of object 'Sizing:System' is both required and has default value, setting required = false.
+[utilities.idd.IddField] <-1> Field 'Type of Load to Size On' of object 'Sizing:System' is both required and has default value, setting required = false.
+[utilities.idd.IddField] <-1> Field 'Column Separator' of object 'OutputControl:Table:Style' is both required and has default value, setting required = false.
+[openstudio.MeasureManager] <-1> Loaded 1 arguments for measure Report Request({060ee477-b04c-4a1b-8788-312d796ad132} version: {f80c5af4-cde2-4cae-8722-de246ec57461})
+[openstudio.MeasureManager] <-2> Measure hasn't changed, but args were reloaded, forcing argument resetting
+[openstudio.runmanager.RubyJobUtils] <-1> Adding input file of type: IDF to be copied to in.idf
+[openstudio.runmanager.RubyJobUtils] <-1> Copying all required files from IDF to IDF
+[openstudio.runmanager.RubyJobUtils] <-1> Skipping file, already exists as a required file: C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb
+[openstudio.MeasureManager] <-1> Loaded 0 arguments for measure Standard Reports({fc337100-8634-404e-8966-01243d292a79} version: {0b2efadb-5c30-41b2-8573-b77c4ebb8499})
+[openstudio.MeasureManager] <-2> Measure hasn't changed, but args were reloaded, forcing argument resetting
+[openstudio.pat.PatApp] <-2> analysisSeedChanged() 
+[openstudio.osversion.VersionTranslator] <-2> Starting translation from Version 1.7.0.
+[openstudio.osversion.VersionTranslator] <-2> Initial model has 609 objects.
+[openstudio.osversion.VersionTranslator] <-2> Final model has 609 objects in IDF form.
+[utilities.idf.Workspace] <-2> Workspace::isValid called.
+[openstudio.osversion.VersionTranslator] <-2> Final model has 609 objects in Model form.
+[openstudio.MeasureManager] <-1> Loaded 1 arguments for measure Report Request({060ee477-b04c-4a1b-8788-312d796ad132} version: {f80c5af4-cde2-4cae-8722-de246ec57461})
+[openstudio.MeasureManager] <-2> Measure hasn't changed, but args were reloaded, forcing argument resetting
+[openstudio.runmanager.RubyJobUtils] <-1> Adding input file of type: IDF to be copied to in.idf
+[openstudio.runmanager.RubyJobUtils] <-1> Copying all required files from IDF to IDF
+[openstudio.runmanager.RubyJobUtils] <-1> Skipping file, already exists as a required file: C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb
+[openstudio.MeasureManager] <-1> Loaded 0 arguments for measure Standard Reports({fc337100-8634-404e-8966-01243d292a79} version: {0b2efadb-5c30-41b2-8573-b77c4ebb8499})
+[openstudio.MeasureManager] <-2> Measure hasn't changed, but args were reloaded, forcing argument resetting
+[openstudio.pat.PatApp] <-2> analysisSeedChanged() 
+[openstudio.model.WeatherFile] <-2> Setting weather file url to file:USA_CO_Golden-NREL.724666_TMY3.epw
+[openstudio.model.WeatherFile] <-2> Current path 'USA_CO_Golden-NREL.724666_TMY3.epw' not complete. After calling system_complete have 'C:/Program Files/OpenStudio 1.7.0/USA_CO_Golden-NREL.724666_TMY3.epw'.
+[openstudio.model.WeatherFile] <-2> Going to look for 'C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/files/USA_CO_Golden-NREL.724666_TMY3.epw'.
+[openstudio.model.WeatherFile] <-2> Setting weather file url to file:///C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/files/USA_CO_Golden-NREL.724666_TMY3.epw
+[openstudio.model.WeatherFile] <-2> Setting weather file url to file:files/USA_CO_Golden-NREL.724666_TMY3.epw
+[openstudio.utilities.core] <-2> Original path 'C:/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/resources/run.db', relative to 'C:/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/resources' is 'run.db'.
+[openstudio.utilities.core] <-2> Relocating path to 'C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/run.db'.
+[openstudio.runmanager.RunManager] <0> User requested to not initialize UI but left status GUI enabled. Disabling status GUI
+[openstudio.runmanager.RunManager] <-1> Creating RunManager with file: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/run.db
+[openstudio.runmanager.RunManager] <-1> Loading config options
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/in.osm
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/OpenStudio.x42320/in.osm
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Temp/OpenStudio.x42320/in.osm
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Local/Temp/OpenStudio.x42320/in.osm
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/AppData/Local/Temp/OpenStudio.x42320/in.osm
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/run
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/macumber/AppData/Local/Temp/OpenStudio.x42320/in.osm
+[openstudio.runmanager.RunManager] <-2> Fixed up path from: C:/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/resources/run to C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/run
+[openstudio.runmanager.RunManager] <-1> Time to load all RunManager data: 3 sizes: 17 169 38 4 4 4 9 9 24
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/USA_CO_Golden-NREL.724666_TMY3.epw
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/in.osm
+[openstudio.runmanager.RunManager] <-1> Time to parse allStatus: 1
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/h
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/files/USA_CO_Golden-NREL.724666_TMY3.epw
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/in.osm
+[openstudio.runmanager.RunManager] <-2> Fixed up path from: C:/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/resources/files/USA_CO_Golden-NREL.724666_TMY3.epw to C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/files/USA_CO_Golden-NREL.724666_TMY3.epw
+[openstudio.runmanager.RunManager] <-1> Time to parse alltools: 1
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/.osm
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/USA_CO_Golden-NREL.724666_TMY3.epw
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/files/USA_CO_Golden-NREL.724666_TMY3.epw
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Fixed up path from: C:/working/misc/House/WholeHouseSimple/files/USA_CO_Golden-NREL.724666_TMY3.epw to C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/files/USA_CO_Golden-NREL.724666_TMY3.epw
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/USA_CO_Golden-NREL.724666_TMY3.epw
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/files/USA_CO_Golden-NREL.724666_TMY3.epw
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/furnace_options/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/furnace_options/measure.rb
+[openstudio.runmanager.RunManager] <-2> Fixed up path from: C:/working/misc/House/WholeHouseSimple/files/USA_CO_Golden-NREL.724666_TMY3.epw to C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/files/USA_CO_Golden-NREL.724666_TMY3.epw
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/scripts/furnace_options/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/scripts/furnace_options/measure.rb
+[openstudio.runmanager.RunManager] <-2> Fixed up path from: C:/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/resources/scripts/furnace_options/measure.rb to C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/scripts/furnace_options/measure.rb
+[openstudio.runmanager.RunManager] <-2> Fixed up path from: C:/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/resources/scripts/furnace_options/measure.rb to C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/scripts/furnace_options/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/USA_CO_Golden-NREL.724666_TMY3.epw
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/files/USA_CO_Golden-NREL.724666_TMY3.epw
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/furnace_options/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Fixed up path from: C:/working/misc/House/WholeHouseSimple/files/USA_CO_Golden-NREL.724666_TMY3.epw to C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/files/USA_CO_Golden-NREL.724666_TMY3.epw
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/scripts/furnace_options/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Fixed up path from: C:/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/resources/scripts/furnace_options/measure.rb to C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/scripts/furnace_options/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/measure.rb"}]
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/StandardReports/measure.rb"}]
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/openstudio-1.7.0/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Measures/StandardReports/measure.rb"}]
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/share/openstudio-1.7.0/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/pat/Measures/StandardReports/measure.rb"}]
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb"}]
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/share/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb"}]
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb"}]
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb"}]
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/"C:Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb"}]
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/{},"measure":"C:Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb"}]
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/.idf
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/.idf
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/.osm
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/share/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/openstudio-1.7.0/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/share/openstudio-1.7.0/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Measures/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/pat/Measures/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/openstudio-1.7.0/pat/Measures/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/share/openstudio-1.7.0/pat/Measures/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/openstudio-1.7.0/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/share/openstudio-1.7.0/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/.idf
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/.osm
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/share/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Measures/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/pat/Measures/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/openstudio-1.7.0/pat/Measures/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/share/openstudio-1.7.0/pat/Measures/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/share/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-1> Time to parse allJobParams: 28
+[openstudio.runmanager.RunManager] <-1> Time to parse allFiles: 0
+[openstudio.runmanager.RunManager] <-1> Time to parse allOutputFiles: 0
+[openstudio.runmanager.RunManager] <-1> Queuing Jobs
+[openstudio.runmanager.RunManager] <-1> Enqueuing Job: {6c4cb1ea-5bf6-4a77-b328-0948a9cc97ac} Null Job
+[openstudio.runmanager.RunManager] <-1> Enqueuing Job: {6e3ebc32-3a31-43a6-8f72-713a1688669b} UserScript (UserScriptAdapter.rb)
+[openstudio.runmanager.RunManager] <-1> Enqueuing Job: {3eab7582-4652-4585-bd96-d2f0544ee007} ModelToIdf
+[openstudio.runmanager.RunManager] <-1> Enqueuing Job: {5a1a89e9-048d-4ebd-aa58-a48e0dcda725} ExpandObjects
+[openstudio.runmanager.RunManager] <-1> Enqueuing Job: {c6024b2f-ec86-4196-a21b-8f922c92ebe9} UserScript (UserScriptAdapter.rb)
+[openstudio.runmanager.RunManager] <-1> Enqueuing Job: {01d9adb2-6a0f-42a5-b31e-6ff559bda40e} EnergyPlusPreProcess
+[openstudio.runmanager.RunManager] <-1> Enqueuing Job: {cd44e789-838b-4809-955d-39bf0414efa1} EnergyPlus
+[openstudio.runmanager.RunManager] <-1> Enqueuing Job: {665a6091-8d1e-4655-b63d-ddcbc96fa390} UserScript (UserScriptAdapter.rb)
+[openstudio.runmanager.RunManager] <-1> Enqueuing Job: {e3c4f346-e6f7-41a2-b4fc-89482c730423} OpenStudioPostProcess
+[openstudio.runmanager.RunManager] <-1> Starting Runmanager
+[openstudio.runmanager.RunManager] <-1> Runmanager Started
+[openstudio.project.ProjectDatabase] <-1> DB Message: cannot start a transaction within a transaction Unable to begin transaction
+[openstudio.utilities.core] <-2> Path '' does not extend base 'C:/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/resources'. Try again after completing both paths.
+[openstudio.utilities.core] <-2> Path 'C:/Program Files/OpenStudio 1.7.0' does not extend base 'C:/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/resources'.
+[openstudio.utilities.core] <-2> Original path '', relative to 'C:/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/resources' is ''.
+[openstudio.utilities.core] <-2> Path 'D:/Documents/Dan/Money/Home Loan/New2015/Knox Ct/*.osm' does not extend base 'C:/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/resources'.
+[openstudio.utilities.core] <-2> Original path 'D:/Documents/Dan/Money/Home Loan/New2015/Knox Ct/*.osm', relative to 'C:/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/resources' is ''.
+[openstudio.utilities.core] <-2> Original path 'C:/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/resources/scripts/furnace_options', relative to 'C:/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/resources' is 'scripts/furnace_options'.
+[openstudio.utilities.core] <-2> Relocating path to 'C:/working/misc/FurnaceReplacement/seed/WholeHouseSimple/scripts/furnace_options'.
+[openstudio.project.ProjectDatabase] <-1> DB Message: cannot start a transaction within a transaction Unable to begin transaction
+[BOOST_ASSERT] <2> Assertion result failed on line 79 of __cdecl openstudio::ruleset::OSArgument::OSArgument(const class QUuid &,const class QUuid &,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,const class boost::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &,const class openstudio::ruleset::OSArgumentType &,const class boost::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &,bool,bool,const class boost::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &,const class boost::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &,const class openstudio::ruleset::OSDomainType &,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &,const class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &,const class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &,bool,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &) in file C:\OpenStudio.x64\openstudiocore\src\ruleset\OSArgument.cpp.
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {de1232e4-5fb6-4b58-addd-a06899d0357f} 1
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {de1232e4-5fb6-4b58-addd-a06899d0357f} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {de1232e4-5fb6-4b58-addd-a06899d0357f} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {de1232e4-5fb6-4b58-addd-a06899d0357f} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {23baa0e0-9891-4634-b4a3-36a736e6bd14} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {23baa0e0-9891-4634-b4a3-36a736e6bd14} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {23baa0e0-9891-4634-b4a3-36a736e6bd14} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {23baa0e0-9891-4634-b4a3-36a736e6bd14} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {8d089454-d1da-405b-84ab-080546d14ac2} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {8d089454-d1da-405b-84ab-080546d14ac2} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {8d089454-d1da-405b-84ab-080546d14ac2} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {8d089454-d1da-405b-84ab-080546d14ac2} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {fea5a4d5-b7ed-4a38-9427-62129eee71b6} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {fea5a4d5-b7ed-4a38-9427-62129eee71b6} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {fea5a4d5-b7ed-4a38-9427-62129eee71b6} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {fea5a4d5-b7ed-4a38-9427-62129eee71b6} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {8932b8c2-51c0-4bd3-a36a-0fe32d6d9ad6} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {8932b8c2-51c0-4bd3-a36a-0fe32d6d9ad6} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {8932b8c2-51c0-4bd3-a36a-0fe32d6d9ad6} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {8932b8c2-51c0-4bd3-a36a-0fe32d6d9ad6} 0
+[openstudio.project.ProjectDatabase] <-2> Beginning ProjectDatabase_Impl destructor.
+[openstudio.project.ProjectDatabase] <-2> Completing ProjectDatabase_Impl destructor.
+[openstudio.runmanager.Workflow] <-2> creating workflow
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {f13a06a5-3fdb-4e55-ab20-81bedd1cf60e}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {f13a06a5-3fdb-4e55-ab20-81bedd1cf60e}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {f13a06a5-3fdb-4e55-ab20-81bedd1cf60e}
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {5f0be44a-883f-4a99-a7fe-9950c96f2ac7}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {5f0be44a-883f-4a99-a7fe-9950c96f2ac7}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {5f0be44a-883f-4a99-a7fe-9950c96f2ac7}
+[openstudio.runmanager.RunManager] <-2> Persisting JobFile C:/Program Files/OpenStudio 1.7.0/Ruby/openstudio/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Persisting RequiredFile file:///C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb to user_script.rb
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {2996cf15-7261-4511-9550-5b6c3c3b355f}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {2996cf15-7261-4511-9550-5b6c3c3b355f}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {2996cf15-7261-4511-9550-5b6c3c3b355f}
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {e272815e-7cc4-4654-8584-baff0546df35}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {e272815e-7cc4-4654-8584-baff0546df35}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {e272815e-7cc4-4654-8584-baff0546df35}
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {1ea940d4-d45d-4b47-bb29-8863ca9823d9}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {1ea940d4-d45d-4b47-bb29-8863ca9823d9}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {1ea940d4-d45d-4b47-bb29-8863ca9823d9}
+[openstudio.runmanager.RunManager] <-2> Persisting JobFile C:/Program Files/OpenStudio 1.7.0/Ruby/openstudio/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Persisting RequiredFile file:///C:/working/misc/FurnaceReplacement/scripts/StandardReports/measure.rb to user_script.rb
+[openstudio.runmanager.RunManager] <-2> Persisting RequiredFile file:///C:/working/misc/FurnaceReplacement/scripts/StandardReports/resources/report.html.in to resources/report.html.in
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {7525389c-7028-4f4e-8175-5de65a78d778}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {7525389c-7028-4f4e-8175-5de65a78d778}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {7525389c-7028-4f4e-8175-5de65a78d778}
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {0d7c8275-6782-4793-b9b7-ab132c38ea9c}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {0d7c8275-6782-4793-b9b7-ab132c38ea9c}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {0d7c8275-6782-4793-b9b7-ab132c38ea9c}
+[openstudio.project.ProjectDatabase] <-1> DB Message: cannot start a transaction within a transaction Unable to begin transaction
+[openstudio.project.ProjectDatabase] <-1> DB Message: cannot start a transaction within a transaction Unable to begin transaction
+[openstudio.project.ProjectDatabase] <-1> DB Message: cannot start a transaction within a transaction Unable to begin transaction
+[utilities.bcl.BCLMeasure] <-2> Loading measures in path: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/CalibrationReports
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/CalibrationReports
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReplaceModel
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReplaceModel
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports
+[utilities.bcl.BCLMeasure] <-2> Loading measures in path: C:/working/misc/Measures
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/working/misc/Measures/furnace_options
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/working/misc/Measures/furnace_options
+[openstudio.MeasureManager] <-1> Loaded 4 arguments for measure Furnace Options({01ee2b73-d2b5-4537-9651-1b8a615bfb80} version: {51075466-d6e1-4562-a9cf-1ebedb2c762a})
+[openstudio.project.ProjectDatabase] <-1> DB Message: cannot start a transaction within a transaction Unable to begin transaction
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {f13a06a5-3fdb-4e55-ab20-81bedd1cf60e} 1
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {f13a06a5-3fdb-4e55-ab20-81bedd1cf60e} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {f13a06a5-3fdb-4e55-ab20-81bedd1cf60e} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {f13a06a5-3fdb-4e55-ab20-81bedd1cf60e} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {5f0be44a-883f-4a99-a7fe-9950c96f2ac7} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {5f0be44a-883f-4a99-a7fe-9950c96f2ac7} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {5f0be44a-883f-4a99-a7fe-9950c96f2ac7} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {5f0be44a-883f-4a99-a7fe-9950c96f2ac7} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {2996cf15-7261-4511-9550-5b6c3c3b355f} 1
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {2996cf15-7261-4511-9550-5b6c3c3b355f} 0
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/.idf
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {2996cf15-7261-4511-9550-5b6c3c3b355f} 3
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {2996cf15-7261-4511-9550-5b6c3c3b355f} 2
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {e272815e-7cc4-4654-8584-baff0546df35} 1
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {e272815e-7cc4-4654-8584-baff0546df35} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {e272815e-7cc4-4654-8584-baff0546df35} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {e272815e-7cc4-4654-8584-baff0546df35} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {1ea940d4-d45d-4b47-bb29-8863ca9823d9} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {1ea940d4-d45d-4b47-bb29-8863ca9823d9} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {1ea940d4-d45d-4b47-bb29-8863ca9823d9} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {1ea940d4-d45d-4b47-bb29-8863ca9823d9} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {7525389c-7028-4f4e-8175-5de65a78d778} 1
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {7525389c-7028-4f4e-8175-5de65a78d778} 0
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/.idf
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/.osm
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/Program Files/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/Program Files/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {7525389c-7028-4f4e-8175-5de65a78d778} 7
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {7525389c-7028-4f4e-8175-5de65a78d778} 3
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {0d7c8275-6782-4793-b9b7-ab132c38ea9c} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {0d7c8275-6782-4793-b9b7-ab132c38ea9c} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {0d7c8275-6782-4793-b9b7-ab132c38ea9c} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {0d7c8275-6782-4793-b9b7-ab132c38ea9c} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {f13a06a5-3fdb-4e55-ab20-81bedd1cf60e} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {f13a06a5-3fdb-4e55-ab20-81bedd1cf60e} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {f13a06a5-3fdb-4e55-ab20-81bedd1cf60e} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {f13a06a5-3fdb-4e55-ab20-81bedd1cf60e} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {5f0be44a-883f-4a99-a7fe-9950c96f2ac7} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {5f0be44a-883f-4a99-a7fe-9950c96f2ac7} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {5f0be44a-883f-4a99-a7fe-9950c96f2ac7} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {5f0be44a-883f-4a99-a7fe-9950c96f2ac7} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {2996cf15-7261-4511-9550-5b6c3c3b355f} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {2996cf15-7261-4511-9550-5b6c3c3b355f} 0
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/.idf
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {2996cf15-7261-4511-9550-5b6c3c3b355f} 1
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {2996cf15-7261-4511-9550-5b6c3c3b355f} 1
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {e272815e-7cc4-4654-8584-baff0546df35} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {e272815e-7cc4-4654-8584-baff0546df35} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {e272815e-7cc4-4654-8584-baff0546df35} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {e272815e-7cc4-4654-8584-baff0546df35} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {1ea940d4-d45d-4b47-bb29-8863ca9823d9} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {1ea940d4-d45d-4b47-bb29-8863ca9823d9} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {1ea940d4-d45d-4b47-bb29-8863ca9823d9} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {1ea940d4-d45d-4b47-bb29-8863ca9823d9} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {7525389c-7028-4f4e-8175-5de65a78d778} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {7525389c-7028-4f4e-8175-5de65a78d778} 0
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/.idf
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/.osm
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/Program Files/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/Program Files/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {7525389c-7028-4f4e-8175-5de65a78d778} 3
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {7525389c-7028-4f4e-8175-5de65a78d778} 1
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {0d7c8275-6782-4793-b9b7-ab132c38ea9c} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {0d7c8275-6782-4793-b9b7-ab132c38ea9c} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {0d7c8275-6782-4793-b9b7-ab132c38ea9c} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {0d7c8275-6782-4793-b9b7-ab132c38ea9c} 0
+[openstudio.runmanager.RunManager] <-2> WorkflowFound {b060ab54-7054-4372-9f81-901bc7ea60ab} with uuid {f13a06a5-3fdb-4e55-ab20-81bedd1cf60e} deleting
+[openstudio.project.ProjectDatabase] <-1> DB Message: cannot start a transaction within a transaction Unable to begin transaction
+[openstudio.project.ProjectDatabase] <-1> DB Message: cannot start a transaction within a transaction Unable to begin transaction
+[openstudio.project.ProjectDatabase] <-1> DB Message: cannot start a transaction within a transaction Unable to begin transaction
+[openstudio.project.ProjectDatabase] <-1> DB Message: cannot start a transaction within a transaction Unable to begin transaction
+[openstudio.runmanager.Workflow] <-2> creating workflow
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {4b3ad280-13ca-4346-87d2-8302cbeb0a61}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {4b3ad280-13ca-4346-87d2-8302cbeb0a61}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {4b3ad280-13ca-4346-87d2-8302cbeb0a61}
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {789cc8d5-3dcc-49a6-a48c-5476efd79412}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {789cc8d5-3dcc-49a6-a48c-5476efd79412}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {789cc8d5-3dcc-49a6-a48c-5476efd79412}
+[openstudio.runmanager.RunManager] <-2> Persisting JobFile C:/Program Files/OpenStudio 1.7.0/Ruby/openstudio/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Persisting RequiredFile file:///C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb to user_script.rb
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {839dc901-f41d-4731-9ebd-a330d6d8e9c0}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {839dc901-f41d-4731-9ebd-a330d6d8e9c0}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {839dc901-f41d-4731-9ebd-a330d6d8e9c0}
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {6a3f64f1-3ae7-4bdc-9887-85ef56b462dd}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {6a3f64f1-3ae7-4bdc-9887-85ef56b462dd}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {6a3f64f1-3ae7-4bdc-9887-85ef56b462dd}
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {a0a87817-b6c0-4967-973c-708ae0d86301}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {a0a87817-b6c0-4967-973c-708ae0d86301}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {a0a87817-b6c0-4967-973c-708ae0d86301}
+[openstudio.runmanager.RunManager] <-2> Persisting JobFile C:/Program Files/OpenStudio 1.7.0/Ruby/openstudio/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Persisting RequiredFile file:///C:/working/misc/FurnaceReplacement/scripts/StandardReports/measure.rb to user_script.rb
+[openstudio.runmanager.RunManager] <-2> Persisting RequiredFile file:///C:/working/misc/FurnaceReplacement/scripts/StandardReports/resources/report.html.in to resources/report.html.in
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {6dc780f1-b811-407b-be9c-caa8c7f45d0f}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {6dc780f1-b811-407b-be9c-caa8c7f45d0f}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {6dc780f1-b811-407b-be9c-caa8c7f45d0f}
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {af7fe8ec-8f86-4c09-b7bb-275f7512629a}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {af7fe8ec-8f86-4c09-b7bb-275f7512629a}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {af7fe8ec-8f86-4c09-b7bb-275f7512629a}
+[openstudio.project.ProjectDatabase] <-1> DB Message: cannot start a transaction within a transaction Unable to begin transaction
+[openstudio.MeasureManager] <-1> returning stored arguments for measure Furnace Options({01ee2b73-d2b5-4537-9651-1b8a615bfb80} version: {51075466-d6e1-4562-a9cf-1ebedb2c762a})
+[openstudio.MeasureManager] <-1> returning stored arguments for measure Furnace Options({01ee2b73-d2b5-4537-9651-1b8a615bfb80} version: {51075466-d6e1-4562-a9cf-1ebedb2c762a})
+[openstudio.MeasureManager] <-1> returning stored arguments for measure Furnace Options({01ee2b73-d2b5-4537-9651-1b8a615bfb80} version: {51075466-d6e1-4562-a9cf-1ebedb2c762a})
+[openstudio.MeasureManager] <-1> returning stored arguments for measure Furnace Options({01ee2b73-d2b5-4537-9651-1b8a615bfb80} version: {51075466-d6e1-4562-a9cf-1ebedb2c762a})
+[openstudio.MeasureManager] <-1> returning stored arguments for measure Furnace Options({01ee2b73-d2b5-4537-9651-1b8a615bfb80} version: {51075466-d6e1-4562-a9cf-1ebedb2c762a})
+[openstudio.MeasureManager] <-1> returning stored arguments for measure Furnace Options({01ee2b73-d2b5-4537-9651-1b8a615bfb80} version: {51075466-d6e1-4562-a9cf-1ebedb2c762a})
+[openstudio.project.ProjectDatabase] <-1> DB Message: cannot start a transaction within a transaction Unable to begin transaction
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {4b3ad280-13ca-4346-87d2-8302cbeb0a61} 1
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {4b3ad280-13ca-4346-87d2-8302cbeb0a61} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {4b3ad280-13ca-4346-87d2-8302cbeb0a61} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {4b3ad280-13ca-4346-87d2-8302cbeb0a61} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {789cc8d5-3dcc-49a6-a48c-5476efd79412} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {789cc8d5-3dcc-49a6-a48c-5476efd79412} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {789cc8d5-3dcc-49a6-a48c-5476efd79412} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {789cc8d5-3dcc-49a6-a48c-5476efd79412} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {839dc901-f41d-4731-9ebd-a330d6d8e9c0} 1
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {839dc901-f41d-4731-9ebd-a330d6d8e9c0} 0
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/.idf
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {839dc901-f41d-4731-9ebd-a330d6d8e9c0} 3
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {839dc901-f41d-4731-9ebd-a330d6d8e9c0} 2
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {6a3f64f1-3ae7-4bdc-9887-85ef56b462dd} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {6a3f64f1-3ae7-4bdc-9887-85ef56b462dd} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {6a3f64f1-3ae7-4bdc-9887-85ef56b462dd} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {6a3f64f1-3ae7-4bdc-9887-85ef56b462dd} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {a0a87817-b6c0-4967-973c-708ae0d86301} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {a0a87817-b6c0-4967-973c-708ae0d86301} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {a0a87817-b6c0-4967-973c-708ae0d86301} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {a0a87817-b6c0-4967-973c-708ae0d86301} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {6dc780f1-b811-407b-be9c-caa8c7f45d0f} 1
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {6dc780f1-b811-407b-be9c-caa8c7f45d0f} 0
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/.idf
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/.osm
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/Program Files/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/Program Files/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {6dc780f1-b811-407b-be9c-caa8c7f45d0f} 6
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {6dc780f1-b811-407b-be9c-caa8c7f45d0f} 3
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {af7fe8ec-8f86-4c09-b7bb-275f7512629a} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {af7fe8ec-8f86-4c09-b7bb-275f7512629a} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {af7fe8ec-8f86-4c09-b7bb-275f7512629a} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {af7fe8ec-8f86-4c09-b7bb-275f7512629a} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {4b3ad280-13ca-4346-87d2-8302cbeb0a61} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {4b3ad280-13ca-4346-87d2-8302cbeb0a61} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {4b3ad280-13ca-4346-87d2-8302cbeb0a61} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {4b3ad280-13ca-4346-87d2-8302cbeb0a61} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {789cc8d5-3dcc-49a6-a48c-5476efd79412} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {789cc8d5-3dcc-49a6-a48c-5476efd79412} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {789cc8d5-3dcc-49a6-a48c-5476efd79412} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {789cc8d5-3dcc-49a6-a48c-5476efd79412} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {839dc901-f41d-4731-9ebd-a330d6d8e9c0} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {839dc901-f41d-4731-9ebd-a330d6d8e9c0} 0
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/.idf
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {839dc901-f41d-4731-9ebd-a330d6d8e9c0} 3
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {839dc901-f41d-4731-9ebd-a330d6d8e9c0} 2
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {6a3f64f1-3ae7-4bdc-9887-85ef56b462dd} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {6a3f64f1-3ae7-4bdc-9887-85ef56b462dd} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {6a3f64f1-3ae7-4bdc-9887-85ef56b462dd} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {6a3f64f1-3ae7-4bdc-9887-85ef56b462dd} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {a0a87817-b6c0-4967-973c-708ae0d86301} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {a0a87817-b6c0-4967-973c-708ae0d86301} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {a0a87817-b6c0-4967-973c-708ae0d86301} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {a0a87817-b6c0-4967-973c-708ae0d86301} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {6dc780f1-b811-407b-be9c-caa8c7f45d0f} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {6dc780f1-b811-407b-be9c-caa8c7f45d0f} 0
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/.idf
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/.osm
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/Program Files/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/Program Files/OpenStudio 1.7.0/Ruby
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {6dc780f1-b811-407b-be9c-caa8c7f45d0f} 6
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/measure.rb
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-2> Looking at path: C:/working/misc/FurnaceReplacement/scripts/StandardReports/resources/report.html.in
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {6dc780f1-b811-407b-be9c-caa8c7f45d0f} 3
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {af7fe8ec-8f86-4c09-b7bb-275f7512629a} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {af7fe8ec-8f86-4c09-b7bb-275f7512629a} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {af7fe8ec-8f86-4c09-b7bb-275f7512629a} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {af7fe8ec-8f86-4c09-b7bb-275f7512629a} 0
+[openstudio.runmanager.RunManager] <-2> WorkflowFound {9473ec44-3b37-4e5e-8356-03a6286546f8} with uuid {4b3ad280-13ca-4346-87d2-8302cbeb0a61} deleting
+[openstudio.runmanager.Workflow] <-2> creating workflow
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {429c6346-c110-4993-a4fb-58253d0d35b8}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {429c6346-c110-4993-a4fb-58253d0d35b8}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {429c6346-c110-4993-a4fb-58253d0d35b8}
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {a5b10948-74b6-4116-91b6-91c95323fd16}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {a5b10948-74b6-4116-91b6-91c95323fd16}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {a5b10948-74b6-4116-91b6-91c95323fd16}
+[openstudio.runmanager.RunManager] <-2> Persisting JobFile C:/Program Files/OpenStudio 1.7.0/Ruby/openstudio/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Persisting RequiredFile file:///C:/working/misc/FurnaceReplacement/scripts/ReportRequest/measure.rb to user_script.rb
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {65b74e51-ddaf-4c12-8434-06f0fd3ca84d}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {65b74e51-ddaf-4c12-8434-06f0fd3ca84d}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {65b74e51-ddaf-4c12-8434-06f0fd3ca84d}
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {a706fd24-1388-4806-b938-f0557a5a4bc7}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {a706fd24-1388-4806-b938-f0557a5a4bc7}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {a706fd24-1388-4806-b938-f0557a5a4bc7}
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {bdcbef94-3749-487b-b995-db5e5e812eea}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {bdcbef94-3749-487b-b995-db5e5e812eea}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {bdcbef94-3749-487b-b995-db5e5e812eea}
+[openstudio.runmanager.RunManager] <-2> Persisting JobFile C:/Program Files/OpenStudio 1.7.0/Ruby/openstudio/runmanager/rubyscripts/UserScriptAdapter.rb
+[openstudio.runmanager.RunManager] <-2> Persisting RequiredFile file:///C:/working/misc/FurnaceReplacement/scripts/StandardReports/measure.rb to user_script.rb
+[openstudio.runmanager.RunManager] <-2> Persisting RequiredFile file:///C:/working/misc/FurnaceReplacement/scripts/StandardReports/resources/report.html.in to resources/report.html.in
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {c3d36386-f72e-4819-9107-33f0f316e89b}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {c3d36386-f72e-4819-9107-33f0f316e89b}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {c3d36386-f72e-4819-9107-33f0f316e89b}
+[openstudio.runmanager.Job_Impl] <-2> Returning previously saved outputfiles
+[openstudio.runmanager.RunManager] <-2> (C:/working/misc/FurnaceReplacement/run.db) Persisting job status for {7a9541ec-1c59-49e3-917e-b260ff9fa340}
+[openstudio.runmanager.RunManager] <-2> Deleted previous data job status for {7a9541ec-1c59-49e3-917e-b260ff9fa340}
+[openstudio.runmanager.RunManager] <-2> Not persisting, job has not actually finished {7a9541ec-1c59-49e3-917e-b260ff9fa340}
+[openstudio.project.ProjectDatabase] <-1> DB Message: cannot start a transaction within a transaction Unable to begin transaction
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.utilities.VersionString] <2> Could not parse '' as a version string.
+[openstudio.RemoteBCL] <0> https://bcl.nrel.gov/api/component/download?uids=c5ab60e9-b8e5-4653-a502-5ed030f1335d
+[openstudio.RemoteBCL] <-1> https://bcl.nrel.gov/api/component/download?uids=c5ab60e9-b8e5-4653-a502-5ed030f1335d
+[utilities.bcl.BCLMeasure] <-2> Loading measures in path: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/CalibrationReports
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/CalibrationReports
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReplaceModel
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReplaceModel
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/ReportRequest
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/Program Files/OpenStudio 1.7.0/share/openstudio-1.7.0/pat/Measures/StandardReports
+[utilities.bcl.BCLMeasure] <-2> Loading measures in path: C:/working/misc/Measures
+[utilities.bcl.BCLMeasure] <-2> Attempting to load measure: C:/working/misc/Measures/furnace_options
+[utilities.bcl.BCLMeasure] <-2> Success loading measure: C:/working/misc/Measures/furnace_options
+[openstudio.MeasureManager] <-1> Loaded 2 arguments for measure Xcel EDA Tariff Selection and Model Setup({c5ab60e9-b8e5-4653-a502-5ed030f1335d} version: {baf39dcf-b1bd-4f01-8525-acbeeeb48dc4})
+[openstudio.pat.RunTabController] <-2> Project has radiance 0
+[RunManager.ConfigOptions] <-1> Tools list in QSettings is from a previous version of OpenStudio, ignoring
+[RunManager.ConfigOptions] <-1> RunManager settings in QSettings is from a previous version of OpenStudio, ignoring
+[RunManager.ConfigOptions] <-1> Tools list in QSettings is from a previous version of OpenStudio, ignoring
+[openstudio.runmanager.ToolFinder] <-1> Scanning top level directory: C:/Users/macumber for tools
+[openstudio.runmanager.ToolFinder] <-1> Scanning top level directory: C:/Program Files/OpenStudio 1.7.0/share/openstudio for tools
+[openstudio.runmanager.ToolFinder] <-1> Scanning top level directory: C:/Program Files/OpenStudio 1.7.0 for tools
+[openstudio.runmanager.ToolFinder] <-1> Scanning top level directory: C:/ for tools
+[openstudio.runmanager.ToolFinder] <-1> Scanning top level directory: D:/ for tools

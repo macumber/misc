@@ -1,0 +1,142 @@
+<measure>
+  <schema_version>3.0</schema_version>
+  <name>furnace_options</name>
+  <uid>01ee2b73-d2b5-4537-9651-1b8a615bfb80</uid>
+  <version_id>51075466-d6e1-4562-a9cf-1ebedb2c762a</version_id>
+  <xml_checksum>C49A7DAB</xml_checksum>
+  <class_name>FurnaceOptions</class_name>
+  <display_name>Furnace Options</display_name>
+  <description></description>
+  <modeler_description></modeler_description>
+  <arguments>
+    <argument>
+      <name>option_name</name>
+      <display_name>option_name</display_name>
+      <type>Choice</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>Baseline</default_value>
+      <choices>
+        <choice>
+          <value>Baseline</value>
+          <display_name>Baseline</display_name>
+        </choice>
+        <choice>
+          <value>80% Two Stage Variable Speed</value>
+          <display_name>80% Two Stage Variable Speed</display_name>
+        </choice>
+        <choice>
+          <value>96% Single Stage Constant Speed</value>
+          <display_name>96% Single Stage Constant Speed</display_name>
+        </choice>
+        <choice>
+          <value>96% Two Stage Variable Speed</value>
+          <display_name>96% Two Stage Variable Speed</display_name>
+        </choice>
+      </choices>
+    </argument>
+    <argument>
+      <name>blower_size</name>
+      <display_name>blower_size</display_name>
+      <type>Choice</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>3 Ton</default_value>
+      <choices>
+        <choice>
+          <value>3 Ton</value>
+          <display_name>3 Ton</display_name>
+        </choice>
+        <choice>
+          <value>4 Ton</value>
+          <display_name>4 Ton</display_name>
+        </choice>
+        <choice>
+          <value>5 Ton</value>
+          <display_name>5 Ton</display_name>
+        </choice>
+      </choices>
+    </argument>
+    <argument>
+      <name>furnace_size</name>
+      <display_name>furnace_size</display_name>
+      <type>Choice</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>110000 Btu/h</default_value>
+      <choices>
+        <choice>
+          <value>70000 Btu/h</value>
+          <display_name>70000 Btu/h</display_name>
+        </choice>
+        <choice>
+          <value>90000 Btu/h</value>
+          <display_name>90000 Btu/h</display_name>
+        </choice>
+        <choice>
+          <value>110000 Btu/h</value>
+          <display_name>110000 Btu/h</display_name>
+        </choice>
+      </choices>
+    </argument>
+    <argument>
+      <name>cost</name>
+      <display_name>cost</display_name>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>0</default_value>
+    </argument>
+  </arguments>
+  <provenances/>
+  <tags>
+    <tag>HVAC.Whole System</tag>
+  </tags>
+  <attributes>
+    <attribute>
+      <name>Measure Type</name>
+      <value>ModelMeasure</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>Apply Measure Now</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>OpenStudio Application</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>Parametric Analysis Tool</value>
+      <datatype>string</datatype>
+    </attribute>
+  </attributes>
+  <files>
+    <file>
+      <filename>furnace_options_test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>36407C2C</checksum>
+    </file>
+    <file>
+      <filename>example_model.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>C4F35230</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>1.7.0</identifier>
+        <min_compatible>1.7.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>06D267D4</checksum>
+    </file>
+  </files>
+</measure>
