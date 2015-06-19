@@ -1,7 +1,7 @@
-Script executing from: C:/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/resources/run/1-UserScript-0
+Script executing from: C:/Users/macumber/AppData/Local/Temp/OpenStudio.J42504/resources/run/1-UserScript-0
 Found argument 'option_name' with value '80% Two Stage Variable Speed'.
-Found argument 'blower_size' with value '3 Ton'.
-Found argument 'furnace_size' with value '110,000 Btu/h'.
+Found argument 'blower_size' with value '4 Ton'.
+Found argument 'furnace_size' with value '110000 Btu/h'.
 Found argument 'cost' with value '0'.
 Found UserScript 'Furnace Options'.
 Processed 1 base script and 0 merged scripts

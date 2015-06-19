@@ -1,6 +1,6 @@
 Missing Energy+.ini
 EnergyPlus Starting
-EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.19 08:47
+EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.19 09:33
 Processing Data Dictionary
 Processing Input File
 Initializing Response Factors
@@ -280,4 +280,4 @@ Updating Shadowing Calculations, Start Date=12/31
 Writing tabular output file results using HTML format.
 Computing Life Cycle Costs and Reporting
 Writing final SQL reports
-EnergyPlus Run Time=00hr 00min 35.00sec
+EnergyPlus Run Time=00hr 00min 29.00sec

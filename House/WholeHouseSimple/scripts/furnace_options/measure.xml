@@ -2,7 +2,7 @@
   <schema_version>3.0</schema_version>
   <name>furnace_options</name>
   <uid>01ee2b73-d2b5-4537-9651-1b8a615bfb80</uid>
-  <version_id>c64bd6fc-5b30-473c-8317-e4601f86295e</version_id>
+  <version_id>51075466-d6e1-4562-a9cf-1ebedb2c762a</version_id>
   <xml_checksum>C49A7DAB</xml_checksum>
   <class_name>FurnaceOptions</class_name>
   <display_name>Furnace Options</display_name>
@@ -63,19 +63,19 @@
       <type>Choice</type>
       <required>true</required>
       <model_dependent>false</model_dependent>
-      <default_value>110,000 Btu/h</default_value>
+      <default_value>110000 Btu/h</default_value>
       <choices>
         <choice>
-          <value>70,000 Btu/h</value>
-          <display_name>70,000 Btu/h</display_name>
+          <value>70000 Btu/h</value>
+          <display_name>70000 Btu/h</display_name>
         </choice>
         <choice>
-          <value>90,000 Btu/h</value>
-          <display_name>90,000 Btu/h</display_name>
+          <value>90000 Btu/h</value>
+          <display_name>90000 Btu/h</display_name>
         </choice>
         <choice>
-          <value>110,000 Btu/h</value>
-          <display_name>110,000 Btu/h</display_name>
+          <value>110000 Btu/h</value>
+          <display_name>110000 Btu/h</display_name>
         </choice>
       </choices>
     </argument>
@@ -136,7 +136,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>80B5CDA2</checksum>
+      <checksum>06D267D4</checksum>
     </file>
   </files>
 </measure>

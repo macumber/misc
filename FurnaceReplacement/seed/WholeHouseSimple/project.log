@@ -1,21 +1,20 @@
-[BOOST_ASSERT] <2> Assertion result failed on line 79 of __cdecl openstudio::ruleset::OSArgument::OSArgument(const class QUuid &,const class QUuid &,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,const class boost::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &,const class openstudio::ruleset::OSArgumentType &,const class boost::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &,bool,bool,const class boost::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &,const class boost::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &,const class openstudio::ruleset::OSDomainType &,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &,const class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &,const class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &,bool,const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &) in file C:\OpenStudio.x64\openstudiocore\src\ruleset\OSArgument.cpp.
-[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {de1232e4-5fb6-4b58-addd-a06899d0357f} 1
-[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {de1232e4-5fb6-4b58-addd-a06899d0357f} 0
-[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {de1232e4-5fb6-4b58-addd-a06899d0357f} 0
-[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {de1232e4-5fb6-4b58-addd-a06899d0357f} 0
-[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {23baa0e0-9891-4634-b4a3-36a736e6bd14} 0
-[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {23baa0e0-9891-4634-b4a3-36a736e6bd14} 0
-[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {23baa0e0-9891-4634-b4a3-36a736e6bd14} 0
-[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {23baa0e0-9891-4634-b4a3-36a736e6bd14} 0
-[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {8d089454-d1da-405b-84ab-080546d14ac2} 0
-[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {8d089454-d1da-405b-84ab-080546d14ac2} 0
-[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {8d089454-d1da-405b-84ab-080546d14ac2} 0
-[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {8d089454-d1da-405b-84ab-080546d14ac2} 0
-[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {fea5a4d5-b7ed-4a38-9427-62129eee71b6} 0
-[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {fea5a4d5-b7ed-4a38-9427-62129eee71b6} 0
-[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {fea5a4d5-b7ed-4a38-9427-62129eee71b6} 0
-[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {fea5a4d5-b7ed-4a38-9427-62129eee71b6} 0
-[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {8932b8c2-51c0-4bd3-a36a-0fe32d6d9ad6} 0
-[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {8932b8c2-51c0-4bd3-a36a-0fe32d6d9ad6} 0
-[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {8932b8c2-51c0-4bd3-a36a-0fe32d6d9ad6} 0
-[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {8932b8c2-51c0-4bd3-a36a-0fe32d6d9ad6} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {15a198c9-cbb4-4b0d-ac51-28a32d6105f3} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {15a198c9-cbb4-4b0d-ac51-28a32d6105f3} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {15a198c9-cbb4-4b0d-ac51-28a32d6105f3} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {15a198c9-cbb4-4b0d-ac51-28a32d6105f3} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {c87234d5-27ba-4e7e-bc58-87794970d0c3} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {c87234d5-27ba-4e7e-bc58-87794970d0c3} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {c87234d5-27ba-4e7e-bc58-87794970d0c3} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {c87234d5-27ba-4e7e-bc58-87794970d0c3} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {83ca51a7-24b4-4f72-a2d9-ccdc6a659b98} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {83ca51a7-24b4-4f72-a2d9-ccdc6a659b98} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {83ca51a7-24b4-4f72-a2d9-ccdc6a659b98} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {83ca51a7-24b4-4f72-a2d9-ccdc6a659b98} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {2d6fc843-7072-4b16-ab5c-b0b164550eee} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {2d6fc843-7072-4b16-ab5c-b0b164550eee} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {2d6fc843-7072-4b16-ab5c-b0b164550eee} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {2d6fc843-7072-4b16-ab5c-b0b164550eee} 0
+[openstudio.runmanager.RunManager] <-1> Time to load for uuid: {eab0e960-c49c-4222-a278-cade61a30266} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse tools for uuid: {eab0e960-c49c-4222-a278-cade61a30266} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse params for uuid: {eab0e960-c49c-4222-a278-cade61a30266} 0
+[openstudio.runmanager.RunManager] <-1> Time to parse files for uuid: {eab0e960-c49c-4222-a278-cade61a30266} 0

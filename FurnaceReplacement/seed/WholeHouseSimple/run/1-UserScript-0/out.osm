@@ -4479,7 +4479,7 @@ OS:SpaceType,
   ,                                       !- Default Construction Set Name
   {92ffaaf7-2745-4994-a4b3-49442c2d56c3}, !- Default Schedule Set Name
   {f645ff36-292b-406d-941d-616ce45df6b3}, !- Group Rendering Name
-  ,                                       !- Design Specification Outdoor Air Object Name
+  {6dda78e9-6d33-44e1-8d09-3d2cca03c6f1}, !- Design Specification Outdoor Air Object Name
   MidriseApartment,                       !- Standards Building Type
   Apartment;                              !- Standards Space Type
 
@@ -4815,7 +4815,7 @@ OS:SpaceType,
   ,                                       !- Default Construction Set Name
   {da375191-7d56-48d7-93d4-fb8306fe43d5}, !- Default Schedule Set Name
   {2ebf87b7-2411-411f-bf54-634a0caf0839}, !- Group Rendering Name
-  ,                                       !- Design Specification Outdoor Air Object Name
+  {6dda78e9-6d33-44e1-8d09-3d2cca03c6f1}, !- Design Specification Outdoor Air Object Name
   Warehouse,                              !- Standards Building Type
   Bulk;                                   !- Standards Space Type
 
@@ -5651,7 +5651,7 @@ OS:Node,
 OS:Node,
   {55556dd0-84b3-4936-9421-7b6f6468cdc4}, !- Handle
   Node 6,                                 !- Name
-  {f94fe539-575e-41ec-ba8a-cdc48ce1962c}, !- Inlet Port
+  {f174e71c-8aac-4d98-b56a-7cc6143e88e1}, !- Inlet Port
   {92f10347-5279-429e-a7b5-55be6d9b6e6e}; !- Outlet Port
 
 OS:Connection,
@@ -5774,7 +5774,7 @@ OS:Controller:OutdoorAir,
   ,                                       !- Actuator Node Name
   Autosize,                               !- Minimum Outdoor Air Flow Rate {m3/s}
   Autosize,                               !- Maximum Outdoor Air Flow Rate {m3/s}
-  NoEconomizer,                           !- Economizer Control Type
+  DifferentialDryBulb,                    !- Economizer Control Type
   ModulateFlow,                           !- Economizer Control Action Type
   28,                                     !- Economizer Maximum Limit Dry-Bulb Temperature {C}
   64000,                                  !- Economizer Maximum Limit Enthalpy {J/kg}
@@ -5852,7 +5852,7 @@ OS:Node,
   {f9b669cb-5759-4e4f-9c87-cfc03315fd87}, !- Handle
   Node 12,                                !- Name
   {70515bfb-1673-491e-b366-765c89415558}, !- Inlet Port
-  {1f26b377-d141-4261-85b7-327c09efb227}; !- Outlet Port
+  {764b7a8f-1df8-4b09-86c1-5a585fbf3a56}; !- Outlet Port
 
 OS:Connection,
   {70515bfb-1673-491e-b366-765c89415558}, !- Handle
@@ -5983,9 +5983,9 @@ OS:Coil:Cooling:DX:SingleSpeed,
   10550,                                  ! Rated Total Cooling Capacity {W}
   Autosize,                               ! Rated Sensible Heat Ratio
   3.7,                                    ! Rated COP {W/W}
-  1.6990108,                              ! Rated Air Flow Rate {m3/s}
-  773.29999999999995,                     ! Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}
-  {1f26b377-d141-4261-85b7-327c09efb227}, ! Air Inlet Node Name
+  Autosize,                               ! Rated Air Flow Rate {m3/s}
+  773.3,                                  ! Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}
+  {764b7a8f-1df8-4b09-86c1-5a585fbf3a56}, ! Air Inlet Node Name
   {4dfa50c8-faa4-4f3e-ac8c-ae2025237ce4}, ! Air Outlet Node Name
   {ec856fce-db96-4267-9a6d-3bceb9b704da}, ! Total Cooling Capacity Function of Temperature Curve Name
   {d3f42325-b2fa-4644-a6e1-be5f85537549}, ! Total Cooling Capacity Function of Flow Fraction Curve Name
@@ -6082,7 +6082,7 @@ OS:Node,
   {3b9426e8-8c81-4e0b-b2db-2ba49e5d44ba}, !- Handle
   Node 17,                                !- Name
   {4dfa50c8-faa4-4f3e-ac8c-ae2025237ce4}, !- Inlet Port
-  {f6505806-82e2-4980-a15c-fce9fa07b132}; !- Outlet Port
+  {224a009c-51f7-4323-866d-533f4b1d9e6e}; !- Outlet Port
 
 OS:Connection,
   {4dfa50c8-faa4-4f3e-ac8c-ae2025237ce4}, !- Handle
@@ -6162,12 +6162,12 @@ OS:ZoneCapacitanceMultiplier:ResearchSpecial,
   ;                                       !- Carbon Dioxide Capacity Multiplier
 
 OS:Fan:VariableVolume,
-  {c3c131d5-ac6c-4216-8367-9f126934bbd8}, !- Handle
+  {6e9acd0a-c526-4be8-8189-121b58ef1d09}, !- Handle
   Fan Variable Volume 1,                  !- Name
   {585a43ad-7098-4180-bdc3-2d9d1adb653c}, !- Availability Schedule Name
   0.8,                                    !- Fan Efficiency
   1017.592,                               !- Pressure Rise {Pa}
-  0.049554481515,                         !- Maximum Flow Rate {m3/s}
+  0.6607264202,                           !- Maximum Flow Rate {m3/s}
   FixedFlowRate,                          !- Fan Power Minimum Flow Rate Input Method
   0,                                      !- Fan Power Minimum Flow Fraction
   0,                                      !- Fan Power Minimum Air Flow Rate {m3/s}
@@ -6178,54 +6178,54 @@ OS:Fan:VariableVolume,
   -0.07292612,                            !- Fan Power Coefficient 3
   0.943739823,                            !- Fan Power Coefficient 4
   0,                                      !- Fan Power Coefficient 5
-  {f6505806-82e2-4980-a15c-fce9fa07b132}, !- Air Inlet Node Name
-  {f94fe539-575e-41ec-ba8a-cdc48ce1962c}, !- Air Outlet Node Name
+  {224a009c-51f7-4323-866d-533f4b1d9e6e}, !- Air Inlet Node Name
+  {f174e71c-8aac-4d98-b56a-7cc6143e88e1}, !- Air Outlet Node Name
   ;                                       !- End-Use Subcategory
 
 OS:Connection,
-  {f94fe539-575e-41ec-ba8a-cdc48ce1962c}, !- Handle
-  {86ffddc7-525d-4b84-aac5-472f3d8cab7a}, !- Name
-  {c3c131d5-ac6c-4216-8367-9f126934bbd8}, !- Source Object
+  {f174e71c-8aac-4d98-b56a-7cc6143e88e1}, !- Handle
+  {e0fd719a-35db-4b4b-b1ce-1237c5c2eb13}, !- Name
+  {6e9acd0a-c526-4be8-8189-121b58ef1d09}, !- Source Object
   17,                                     !- Outlet Port
   {55556dd0-84b3-4936-9421-7b6f6468cdc4}, !- Target Object
   2;                                      !- Inlet Port
 
 OS:Connection,
-  {f6505806-82e2-4980-a15c-fce9fa07b132}, !- Handle
-  {3cbe52e7-1ec2-47e9-950b-dfbe40c6b42a}, !- Name
+  {224a009c-51f7-4323-866d-533f4b1d9e6e}, !- Handle
+  {ac269dc6-1d62-4e96-9e6d-71d36f65e105}, !- Name
   {3b9426e8-8c81-4e0b-b2db-2ba49e5d44ba}, !- Source Object
   3,                                      !- Outlet Port
-  {c3c131d5-ac6c-4216-8367-9f126934bbd8}, !- Target Object
+  {6e9acd0a-c526-4be8-8189-121b58ef1d09}, !- Target Object
   16;                                     !- Inlet Port
 
 OS:Coil:Heating:Gas:MultiStage,
-  {9c178623-c45d-42bf-86bc-3a35fb647840}, !- Handle
+  {94f6e1bb-2026-48c3-89e6-7b3904234eb2}, !- Handle
   Coil Heating Gas Multi Stage 1,         !- Name
   ,                                       !- Availability Schedule
   ,                                       !- Air Inlet Node
   ,                                       !- Air Outlet Node
   ,                                       !- Part Load Fraction Correlation Curve
   ,                                       !- Parasitic Gas Load {W}
-  {741acb7a-689c-4bee-9e6e-9f75b4548e30}, !- Stage 1
-  {bdc9890d-b3e6-4122-9253-565b8a637338}; !- Stage 2
+  {4d103a49-9bc3-47a6-9dce-f7ef9bdf1444}, !- Stage 1
+  {4d8aa085-ecba-48fa-a3e4-2d9b7912ed3b}; !- Stage 2
 
 OS:Coil:Heating:Gas:MultiStage:StageData,
-  {741acb7a-689c-4bee-9e6e-9f75b4548e30}, !- Handle
+  {4d103a49-9bc3-47a6-9dce-f7ef9bdf1444}, !- Handle
   Coil Heating Gas Multi Stage Stage Data 1, !- Name
   0.8,                                    !- Gas Burner Efficiency {W/W}
   14653.5535,                             !- Nominal Capacity {W}
   0;                                      !- Parasitic Electric Load {W}
 
 OS:Coil:Heating:Gas:MultiStage:StageData,
-  {bdc9890d-b3e6-4122-9253-565b8a637338}, !- Handle
+  {4d8aa085-ecba-48fa-a3e4-2d9b7912ed3b}, !- Handle
   Coil Heating Gas Multi Stage Stage Data 2, !- Name
   0.8,                                    !- Gas Burner Efficiency {W/W}
   29307.107,                              !- Nominal Capacity {W}
   0;                                      !- Parasitic Electric Load {W}
 
 OS:Connection,
-  {1f26b377-d141-4261-85b7-327c09efb227}, !- Handle
-  {b8086e24-a620-4cf6-b466-5f94e607295f}, !- Name
+  {764b7a8f-1df8-4b09-86c1-5a585fbf3a56}, !- Handle
+  {84cf30a3-d36d-4db9-b0a0-6156e4782763}, !- Name
   {f9b669cb-5759-4e4f-9c87-cfc03315fd87}, !- Source Object
   3,                                      !- Outlet Port
   {9d0c57a8-321a-4cba-95d6-70383b17e0c8}, !- Target Object

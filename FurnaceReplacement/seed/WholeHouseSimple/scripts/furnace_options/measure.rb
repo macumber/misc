@@ -41,11 +41,11 @@ class FurnaceOptions < OpenStudio::Ruleset::ModelUserScript
     args << blower_size
     
     chs = OpenStudio::StringVector.new
-    chs << "70,000 Btu/h"
-    chs << "90,000 Btu/h"
-    chs << "110,000 Btu/h"
+    chs << "70000 Btu/h"
+    chs << "90000 Btu/h"
+    chs << "110000 Btu/h"
     furnace_size = OpenStudio::Ruleset::OSArgument::makeChoiceArgument('furnace_size', chs, true)
-    furnace_size.setDefaultValue("110,000 Btu/h")
+    furnace_size.setDefaultValue("110000 Btu/h")
     args << furnace_size
     
     cost = OpenStudio::Ruleset::OSArgument::makeDoubleArgument('cost', true)
@@ -126,6 +126,7 @@ class FurnaceOptions < OpenStudio::Ruleset::ModelUserScript
     building = model.getBuilding
     OpenStudio::Model::LifeCycleCost.createLifeCycleCost("Furnace", building, cost, "CostPerEach", "HVAC")
     
+    # http://furnaces.homeowl.com is useful site
     # coiling is SEER 14 ~ COP of 3.7
     # coiling has 3 ton capacity ~ 10550 W
     
@@ -144,11 +145,11 @@ class FurnaceOptions < OpenStudio::Ruleset::ModelUserScript
     end
 
     furn_capacity = 0
-    if furnace_size == "70,000 Btu/h"
+    if furnace_size == "70000 Btu/h"
       furn_capacity = 0.29307107*70000
-    elsif furnace_size == "90,000 Btu/h"
+    elsif furnace_size == "90000 Btu/h"
       furn_capacity = 0.29307107*90000
-    elsif furnace_size == "110,000 Btu/h"
+    elsif furnace_size == "110000 Btu/h"
       furn_capacity = 0.29307107*100000
     end
     

@@ -3,7 +3,7 @@ Version,
   8.2;                                    !- Version Identifier
 
 LifeCycleCost:Parameters,
-  {8be8a19f-b5cb-4724-adb0-f7fd55b9f65d}, !- Name
+  {019b3211-2621-4e14-8a78-25814800d86c}, !- Name
   EndOfYear,                              !- Discounting Convention
   ConstantDollar,                         !- Inflation Approach
   0.03,                                   !- Real Discount Rate
@@ -968,7 +968,7 @@ Schedule:Day:Interval,
   21.1000003814697;                       !- Value Until Time 1
 
 Schedule:Week:Daily,
-  Schedule:Week:Daily {2b1d6d1d-62dc-4984-842f-f3b7476b4482}, !- Name
+  Schedule:Week:Daily {99aad550-cfb1-4947-9c0e-4defd927d0a4}, !- Name
   MidriseApartment Apartment HtgSetp Default Schedule, !- Sunday Schedule:Day Name
   MidriseApartment Apartment HtgSetp Default Schedule, !- Monday Schedule:Day Name
   MidriseApartment Apartment HtgSetp Default Schedule, !- Tuesday Schedule:Day Name
@@ -985,7 +985,7 @@ Schedule:Week:Daily,
 Schedule:Year,
   MidriseApartment Apartment HtgSetp,     !- Name
   Temperature 25,                         !- Schedule Type Limits Name
-  Schedule:Week:Daily {2b1d6d1d-62dc-4984-842f-f3b7476b4482}, !- Schedule:Week Name 1
+  Schedule:Week:Daily {99aad550-cfb1-4947-9c0e-4defd927d0a4}, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
@@ -1020,7 +1020,7 @@ Schedule:Day:Interval,
   23.8999996185303;                       !- Value Until Time 1
 
 Schedule:Week:Daily,
-  Schedule:Week:Daily {fbaf9cfe-41e3-4b8a-9394-00ef16efc4e2}, !- Name
+  Schedule:Week:Daily {b171fc87-846d-4e66-bdf1-6ec0b66db27b}, !- Name
   MidriseApartment Apartment ClgSetp Default Schedule, !- Sunday Schedule:Day Name
   MidriseApartment Apartment ClgSetp Default Schedule, !- Monday Schedule:Day Name
   MidriseApartment Apartment ClgSetp Default Schedule, !- Tuesday Schedule:Day Name
@@ -1037,7 +1037,7 @@ Schedule:Week:Daily,
 Schedule:Year,
   MidriseApartment Apartment ClgSetp,     !- Name
   Temperature 18,                         !- Schedule Type Limits Name
-  Schedule:Week:Daily {fbaf9cfe-41e3-4b8a-9394-00ef16efc4e2}, !- Schedule:Week Name 1
+  Schedule:Week:Daily {b171fc87-846d-4e66-bdf1-6ec0b66db27b}, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
@@ -1092,7 +1092,7 @@ Sizing:Zone,
   ,                                       !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
-  ,                                       !- Design Specification Outdoor Air Object Name
+  DOE Ref 1980-2004 - MidriseApartment - Corridor Ventilation, !- Design Specification Outdoor Air Object Name
   ,                                       !- Zone Heating Sizing Factor
   ,                                       !- Zone Cooling Sizing Factor
   DesignDay,                              !- Cooling Design Air Flow Method
@@ -1124,11 +1124,19 @@ Controller:MechanicalVentilation,
   ZoneSum,                                !- System Outdoor Air Method
   ,                                       !- Zone Maximum Outdoor Air Fraction {dimensionless}
   First floor,                            !- Zone Name 1
-  ,                                       !- Design Specification Outdoor Air Object Name 1
+  DOE Ref 1980-2004 - MidriseApartment - Corridor Ventilation, !- Design Specification Outdoor Air Object Name 1
   First floor Design Spec Zone Air Dist,  !- Design Specification Zone Air Distribution Object Name 1
   Second floor,                           !- Zone Name 2
-  ,                                       !- Design Specification Outdoor Air Object Name 2
+  DOE Ref 1980-2004 - MidriseApartment - Corridor Ventilation, !- Design Specification Outdoor Air Object Name 2
   Second floor Design Spec Zone Air Dist; !- Design Specification Zone Air Distribution Object Name 2
+
+DesignSpecification:OutdoorAir,
+  DOE Ref 1980-2004 - MidriseApartment - Corridor Ventilation, !- Name
+  Sum,                                    !- Outdoor Air Method
+  0,                                      !- Outdoor Air Flow per Person {m3/s-person}
+  0.000254,                               !- Outdoor Air Flow per Zone Floor Area {m3/s-m2}
+  0,                                      !- Outdoor Air Flow per Zone {m3/s}
+  0;                                      !- Outdoor Air Flow Air Changes per Hour {1/hr}
 
 Zone,
   Garage,                                 !- Name
@@ -1683,7 +1691,7 @@ Sizing:Zone,
   ,                                       !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
-  ,                                       !- Design Specification Outdoor Air Object Name
+  DOE Ref 1980-2004 - MidriseApartment - Corridor Ventilation, !- Design Specification Outdoor Air Object Name
   ,                                       !- Zone Heating Sizing Factor
   ,                                       !- Zone Cooling Sizing Factor
   DesignDay,                              !- Cooling Design Air Flow Method
@@ -2697,7 +2705,7 @@ Schedule:Day:Interval,
   1;                                      !- Value Until Time 1
 
 Schedule:Week:Daily,
-  Schedule:Week:Daily {7bbea854-bb49-4303-a985-f1437fc232e3}, !- Name
+  Schedule:Week:Daily {3e669b52-c1e7-4ea9-a00b-12a70010aef4}, !- Name
   Always On Default Schedule,             !- Sunday Schedule:Day Name
   Always On Default Schedule,             !- Monday Schedule:Day Name
   Always On Default Schedule,             !- Tuesday Schedule:Day Name
@@ -2714,14 +2722,14 @@ Schedule:Week:Daily,
 Schedule:Year,
   Always On,                              !- Name
   On/Off,                                 !- Schedule Type Limits Name
-  Schedule:Week:Daily {7bbea854-bb49-4303-a985-f1437fc232e3}, !- Schedule:Week Name 1
+  Schedule:Week:Daily {3e669b52-c1e7-4ea9-a00b-12a70010aef4}, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
-  Schedule:Week:Daily {0f8c6a7b-5747-4d51-8788-ada2d514bff0}, !- Name
+  Schedule:Week:Daily {4b6625f3-152e-4e98-91a8-a684950aa462}, !- Name
   MidriseApartment Activity Default Schedule, !- Sunday Schedule:Day Name
   MidriseApartment Activity Default Schedule, !- Monday Schedule:Day Name
   MidriseApartment Activity Default Schedule, !- Tuesday Schedule:Day Name
@@ -2738,14 +2746,14 @@ Schedule:Week:Daily,
 Schedule:Year,
   MidriseApartment Activity,              !- Name
   ActivityLevel 1,                        !- Schedule Type Limits Name
-  Schedule:Week:Daily {0f8c6a7b-5747-4d51-8788-ada2d514bff0}, !- Schedule:Week Name 1
+  Schedule:Week:Daily {4b6625f3-152e-4e98-91a8-a684950aa462}, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
-  Schedule:Week:Daily {e2a0a798-ec10-4812-9114-f58a74746276}, !- Name
+  Schedule:Week:Daily {afddaf50-3279-46e3-b95f-0a9dcd962b21}, !- Name
   MidriseApartment Apartment Equip Default Schedule, !- Sunday Schedule:Day Name
   MidriseApartment Apartment Equip Default Schedule, !- Monday Schedule:Day Name
   MidriseApartment Apartment Equip Default Schedule, !- Tuesday Schedule:Day Name
@@ -2762,14 +2770,14 @@ Schedule:Week:Daily,
 Schedule:Year,
   MidriseApartment Apartment Equip,       !- Name
   Fraction,                               !- Schedule Type Limits Name
-  Schedule:Week:Daily {e2a0a798-ec10-4812-9114-f58a74746276}, !- Schedule:Week Name 1
+  Schedule:Week:Daily {afddaf50-3279-46e3-b95f-0a9dcd962b21}, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
-  Schedule:Week:Daily {0d38a967-3627-44a6-9ab5-1f3d757364ee}, !- Name
+  Schedule:Week:Daily {a03aa19e-8566-4a14-a164-6e52d8d293b1}, !- Name
   MidriseApartment Apartment Light Default Schedule, !- Sunday Schedule:Day Name
   MidriseApartment Apartment Light Default Schedule, !- Monday Schedule:Day Name
   MidriseApartment Apartment Light Default Schedule, !- Tuesday Schedule:Day Name
@@ -2786,14 +2794,14 @@ Schedule:Week:Daily,
 Schedule:Year,
   MidriseApartment Apartment Light,       !- Name
   Fraction,                               !- Schedule Type Limits Name
-  Schedule:Week:Daily {0d38a967-3627-44a6-9ab5-1f3d757364ee}, !- Schedule:Week Name 1
+  Schedule:Week:Daily {a03aa19e-8566-4a14-a164-6e52d8d293b1}, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
-  Schedule:Week:Daily {0e7313b9-8549-4990-ba7d-caf1d7216339}, !- Name
+  Schedule:Week:Daily {026487ea-d4ee-4475-83f0-5fc5e40efb18}, !- Name
   MidriseApartment Apartment Occ Default Schedule, !- Sunday Schedule:Day Name
   MidriseApartment Apartment Occ Default Schedule, !- Monday Schedule:Day Name
   MidriseApartment Apartment Occ Default Schedule, !- Tuesday Schedule:Day Name
@@ -2810,14 +2818,14 @@ Schedule:Week:Daily,
 Schedule:Year,
   MidriseApartment Apartment Occ,         !- Name
   Fraction,                               !- Schedule Type Limits Name
-  Schedule:Week:Daily {0e7313b9-8549-4990-ba7d-caf1d7216339}, !- Schedule:Week Name 1
+  Schedule:Week:Daily {026487ea-d4ee-4475-83f0-5fc5e40efb18}, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
-  Schedule:Week:Daily {dced9a39-ca81-44d0-9b47-ffee22aa9b4f}, !- Name
+  Schedule:Week:Daily {eac9db6f-54a5-4e72-86e8-172208033e27}, !- Name
   MidriseApartment Infil Default Schedule, !- Sunday Schedule:Day Name
   MidriseApartment Infil Default Schedule, !- Monday Schedule:Day Name
   MidriseApartment Infil Default Schedule, !- Tuesday Schedule:Day Name
@@ -2834,7 +2842,7 @@ Schedule:Week:Daily,
 Schedule:Year,
   MidriseApartment Infil,                 !- Name
   Fraction,                               !- Schedule Type Limits Name
-  Schedule:Week:Daily {dced9a39-ca81-44d0-9b47-ffee22aa9b4f}, !- Schedule:Week Name 1
+  Schedule:Week:Daily {eac9db6f-54a5-4e72-86e8-172208033e27}, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
@@ -2896,7 +2904,7 @@ BranchList,
 
 Branch,
   Air System Supply Branch,               !- Name
-  0.049554481515,                         !- Maximum Flow Rate {m3/s}
+  0.6607264202,                           !- Maximum Flow Rate {m3/s}
   ,                                       !- Pressure Drop Curve Name
   AirLoopHVAC:OutdoorAirSystem,           !- Component Object Type 1
   Air Loop HVAC Outdoor Air System 1,     !- Component Name 1
@@ -2933,7 +2941,7 @@ Controller:OutdoorAir,
   Node 10,                                !- Actuator Node Name
   Autosize,                               !- Minimum Outdoor Air Flow Rate {m3/s}
   Autosize,                               !- Maximum Outdoor Air Flow Rate {m3/s}
-  NoEconomizer,                           !- Economizer Control Type
+  DifferentialDryBulb,                    !- Economizer Control Type
   ModulateFlow,                           !- Economizer Control Action Type
   28,                                     !- Economizer Maximum Limit Dry-Bulb Temperature {C}
   64000,                                  !- Economizer Maximum Limit Enthalpy {J/kg}
@@ -3058,7 +3066,7 @@ Coil:Cooling:DX:SingleSpeed,
   10550,                                  !- Gross Rated Total Cooling Capacity {W}
   Autosize,                               !- Gross Rated Sensible Heat Ratio
   3.7,                                    !- Gross Rated Cooling COP {W/W}
-  1.6990108,                              !- Rated Air Flow Rate {m3/s}
+  Autosize,                               !- Rated Air Flow Rate {m3/s}
   773.3,                                  !- Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}
   Node 12,                                !- Air Inlet Node Name
   Node 17,                                !- Air Outlet Node Name
@@ -3088,7 +3096,7 @@ Fan:VariableVolume,
   Always On Discrete,                     !- Availability Schedule Name
   0.8,                                    !- Fan Total Efficiency
   1017.592,                               !- Pressure Rise {Pa}
-  0.049554481515,                         !- Maximum Flow Rate {m3/s}
+  0.6607264202,                           !- Maximum Flow Rate {m3/s}
   FixedFlowRate,                          !- Fan Power Minimum Flow Rate Input Method
   0,                                      !- Fan Power Minimum Flow Fraction
   0,                                      !- Fan Power Minimum Air Flow Rate {m3/s}

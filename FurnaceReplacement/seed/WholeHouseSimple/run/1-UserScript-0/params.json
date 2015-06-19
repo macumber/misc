@@ -23,7 +23,7 @@
                     },
                     {
                         "param": {
-                            "value": "--argumentValue=3 Ton"
+                            "value": "--argumentValue=4 Ton"
                         },
                         "param_index": 3
                     },
@@ -35,7 +35,7 @@
                     },
                     {
                         "param": {
-                            "value": "--argumentValue=110,000 Btu/h"
+                            "value": "--argumentValue=110000 Btu/h"
                         },
                         "param_index": 5
                     },
@@ -157,7 +157,7 @@
                                     "param_index": 0
                                 }
                             ],
-                            "value": "C:/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/resources/scripts/furnace_options/measure.rb"
+                            "value": "C:/Users/macumber/AppData/Local/Temp/OpenStudio.J42504/resources/scripts/furnace_options/measure.rb"
                         },
                         "param_index": 0
                     },
@@ -171,7 +171,7 @@
                                     "param_index": 0
                                 }
                             ],
-                            "value": "C:/Users/macumber/AppData/Local/Temp/OpenStudio.x42320/resources/scripts/furnace_options/measure.rb"
+                            "value": "C:/Users/macumber/AppData/Local/Temp/OpenStudio.J42504/resources/scripts/furnace_options/measure.rb"
                         },
                         "param_index": 1
                     }
