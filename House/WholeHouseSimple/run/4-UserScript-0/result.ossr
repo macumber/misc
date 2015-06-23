@@ -26,8 +26,8 @@
   </FinalCondition>
   <Attributes>
     <Attribute>
-      <UUID>{703abaeb-f1b0-410a-9328-c7e4c19736ed}</UUID>
-      <VersionUUID>{da934ed0-80a4-456c-82d4-f52c4e848f01}</VersionUUID>
+      <UUID>{8552ddc6-177d-43ac-a7bd-5b147ca50bcd}</UUID>
+      <VersionUUID>{a5603f5f-270d-4aac-a585-135cd36d80e3}</VersionUUID>
       <Name>measures_json</Name>
       <Source>Report Request</Source>
       <ValueType>String</ValueType>

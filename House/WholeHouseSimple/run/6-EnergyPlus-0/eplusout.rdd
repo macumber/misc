@@ -1,4 +1,4 @@
-! Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.19 09:33,IDD_Version 8.2.0
+! Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.23 12:52,IDD_Version 8.2.0
 ! Output:Variable Objects (applicable to this run)
 Output:Variable,*,Site Outdoor Air Drybulb Temperature,hourly; !- Zone Average [C]
 Output:Variable,*,Site Outdoor Air Dewpoint Temperature,hourly; !- Zone Average [C]
@@ -365,6 +365,15 @@ Output:Variable,*,Air System Outdoor Air Flow Fraction,hourly; !- HVAC Average [
 Output:Variable,*,Air System Outdoor Air Minimum Flow Fraction,hourly; !- HVAC Average []
 Output:Variable,*,Air System Outdoor Air Mass Flow Rate,hourly; !- HVAC Average [kg/s]
 Output:Variable,*,Air System Mixed Air Mass Flow Rate,hourly; !- HVAC Average [kg/s]
+Output:Variable,*,Heating Coil Air Heating Energy,hourly; !- HVAC Sum [J]
+Output:Variable,*,Heating Coil Air Heating Rate,hourly; !- HVAC Average [W]
+Output:Variable,*,Heating Coil Gas Energy,hourly; !- HVAC Sum [J]
+Output:Variable,*,Heating Coil Gas Rate,hourly; !- HVAC Average [W]
+Output:Variable,*,Heating Coil Electric Energy,hourly; !- HVAC Sum [J]
+Output:Variable,*,Heating Coil Electric Power,hourly; !- HVAC Average [W]
+Output:Variable,*,Heating Coil Runtime Fraction,hourly; !- HVAC Average []
+Output:Variable,*,Heating Coil Ancillary Gas Rate,hourly; !- HVAC Average [W]
+Output:Variable,*,Heating Coil Ancillary Gas Energy,hourly; !- HVAC Sum [J]
 Output:Variable,*,Cooling Coil Total Cooling Rate,hourly; !- HVAC Average [W]
 Output:Variable,*,Cooling Coil Total Cooling Energy,hourly; !- HVAC Sum [J]
 Output:Variable,*,Cooling Coil Sensible Cooling Rate,hourly; !- HVAC Average [W]

@@ -91,6 +91,9 @@ class FurnaceOptions < OpenStudio::Ruleset::ModelUserScript
         if !outletModelObject.get.to_Node.empty?
           new_coil = OpenStudio::Model::CoilHeatingGasMultiStage.new(model)
           
+          schedule = model.alwaysOnDiscreteSchedule
+          new_coil.setAvailabilitySchedule(schedule)
+          
           stage1 = OpenStudio::Model::CoilHeatingGasMultiStageStageData.new(model)
           stage1.setGasBurnerEfficiency(efficiency)
           stage1.setNominalCapacity(0.5*capacity)
@@ -123,8 +126,15 @@ class FurnaceOptions < OpenStudio::Ruleset::ModelUserScript
     furnace_size = runner.getStringArgumentValue("furnace_size", user_arguments)
     cost = runner.getDoubleArgumentValue("cost", user_arguments)
     
+    model.getLifeCycleCosts.each do |lcc|
+      if lcc.name.get == "Furnace"
+        lcc.remove
+      end
+    end
+    
     building = model.getBuilding
-    OpenStudio::Model::LifeCycleCost.createLifeCycleCost("Furnace", building, cost, "CostPerEach", "HVAC")
+    cost = OpenStudio::Model::LifeCycleCost.createLifeCycleCost("Furnace", building, cost, "CostPerEach", "Construction")
+    cost.get
     
     # http://furnaces.homeowl.com is useful site
     # coiling is SEER 14 ~ COP of 3.7

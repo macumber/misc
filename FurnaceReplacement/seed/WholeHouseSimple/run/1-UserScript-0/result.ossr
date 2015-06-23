@@ -2,32 +2,32 @@
   <Value>Success</Value>
   <Attributes>
     <Attribute>
-      <UUID>{f967b857-174d-49c7-a717-946423aac513}</UUID>
-      <VersionUUID>{5efbd579-68be-4895-bc57-49c75658ac8b}</VersionUUID>
+      <UUID>{bca8fe6b-5fa1-403b-a402-6f1d08d053e5}</UUID>
+      <VersionUUID>{41f80938-8d9d-43a3-8143-847fa87cff2d}</VersionUUID>
       <Name>option_name</Name>
       <Source>Furnace Options</Source>
       <ValueType>String</ValueType>
-      <Value>80% Two Stage Variable Speed</Value>
+      <Value>Baseline</Value>
     </Attribute>
     <Attribute>
-      <UUID>{695d0d26-21dd-4db4-ad0c-5bd5a974dfaa}</UUID>
-      <VersionUUID>{27be2fd5-8c8c-40cb-b96f-6fd6acf86e54}</VersionUUID>
+      <UUID>{a3106994-1020-4edb-96ce-826979f1487f}</UUID>
+      <VersionUUID>{f1003f99-23c2-49a3-84c6-56d5f8635e6a}</VersionUUID>
       <Name>blower_size</Name>
       <Source>Furnace Options</Source>
       <ValueType>String</ValueType>
       <Value>4 Ton</Value>
     </Attribute>
     <Attribute>
-      <UUID>{fef172d6-3c38-4ec2-968b-c8be4d69457a}</UUID>
-      <VersionUUID>{5c3160e3-b5ff-42f6-899c-489aab535598}</VersionUUID>
+      <UUID>{79d5a947-6ff6-4fbf-be7e-694f5d011896}</UUID>
+      <VersionUUID>{684c35c6-0fdc-4d94-bc65-6aa842189af7}</VersionUUID>
       <Name>furnace_size</Name>
       <Source>Furnace Options</Source>
       <ValueType>String</ValueType>
-      <Value>110000 Btu/h</Value>
+      <Value>90000 Btu/h</Value>
     </Attribute>
     <Attribute>
-      <UUID>{4761f1e5-db01-453d-af03-1bafca8e7478}</UUID>
-      <VersionUUID>{6cc2cffc-7390-4b29-b17b-676d7d4f51a8}</VersionUUID>
+      <UUID>{80dc74d7-d786-4d45-bbde-237bba493bbb}</UUID>
+      <VersionUUID>{93d05729-5cda-4148-ace4-ab2f224f8da2}</VersionUUID>
       <Name>cost</Name>
       <Source>Furnace Options</Source>
       <ValueType>Double</ValueType>

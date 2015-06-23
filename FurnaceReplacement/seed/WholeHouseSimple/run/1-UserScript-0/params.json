@@ -11,7 +11,7 @@
                     },
                     {
                         "param": {
-                            "value": "--argumentValue=80% Two Stage Variable Speed"
+                            "value": "--argumentValue=Baseline"
                         },
                         "param_index": 1
                     },
@@ -35,7 +35,7 @@
                     },
                     {
                         "param": {
-                            "value": "--argumentValue=110000 Btu/h"
+                            "value": "--argumentValue=90000 Btu/h"
                         },
                         "param_index": 5
                     },
@@ -157,7 +157,7 @@
                                     "param_index": 0
                                 }
                             ],
-                            "value": "C:/Users/macumber/AppData/Local/Temp/OpenStudio.J42504/resources/scripts/furnace_options/measure.rb"
+                            "value": "C:/Users/dmacumbe/AppData/Local/Temp/1/OpenStudio.ba1540/resources/scripts/furnace_options/measure.rb"
                         },
                         "param_index": 0
                     },
@@ -171,7 +171,7 @@
                                     "param_index": 0
                                 }
                             ],
-                            "value": "C:/Users/macumber/AppData/Local/Temp/OpenStudio.J42504/resources/scripts/furnace_options/measure.rb"
+                            "value": "C:/Users/dmacumbe/AppData/Local/Temp/1/OpenStudio.ba1540/resources/scripts/furnace_options/measure.rb"
                         },
                         "param_index": 1
                     }

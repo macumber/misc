@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.19 09:33
+Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.23 12:52
 ! This file shows details about the branches, nodes, and other
 ! elements of the flow connections.
 ! This file is intended for use in "debugging" potential problems
@@ -8,27 +8,28 @@ Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.19 09:33
 ! schematic diagram of the HVAC system.
 ! ===============================================================
 ! #Nodes,<Number of Unique Nodes>
- #Nodes,14
+ #Nodes,15
 ! <Node>,<NodeNumber>,<Node Name>,<Node Fluid Type>,<# Times Node Referenced After Definition>
  Node,1,NODE 9,Air,4
  Node,2,NODE 15,Air,3
  Node,3,NODE 5,Air,3
- Node,4,NODE 12,Air,6
- Node,5,NODE 17,Air,8
- Node,6,NODE 6,Air,7
- Node,7,NODE 10,Air,2
- Node,8,NODE 3,Air,1
- Node,9,NODE 14,Air,1
- Node,10,NODE 2,Air,0
- Node,11,NODE 16,Air,1
- Node,12,NODE 7,Air,2
- Node,13,NODE 8,Air,2
- Node,14,NODE 11,Air,1
+ Node,4,NODE 12,Air,5
+ Node,5,NODE 13,Air,6
+ Node,6,NODE 17,Air,9
+ Node,7,NODE 6,Air,9
+ Node,8,NODE 10,Air,2
+ Node,9,NODE 3,Air,1
+ Node,10,NODE 14,Air,1
+ Node,11,NODE 2,Air,0
+ Node,12,NODE 16,Air,1
+ Node,13,NODE 7,Air,2
+ Node,14,NODE 8,Air,2
+ Node,15,NODE 11,Air,1
 ! ===============================================================
 ! Suspicious nodes have 0 references.  It is normal for some nodes, however.
 ! Listing nodes with 0 references (culled from previous list):
 ! <Suspicious Node>,<NodeNumber>,<Node Name>,<Node Fluid Type>,<# Times Node Referenced After Definition>
- Suspicious Node,10,NODE 2,Air,0
+ Suspicious Node,11,NODE 2,Air,0
 ! ===============================================================
 ! <#Branch Lists>,<Number of Branch Lists>
  #Branch Lists,1
@@ -80,16 +81,17 @@ Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.19 09:33
 ! #Outdoor Air Nodes,<Number of Outdoor Air Nodes>
  #Outdoor Air Nodes,1
 ! <Outdoor Air Node>,<NodeNumber>,<Node Name>
- Outdoor Air Node,7,NODE 10
+ Outdoor Air Node,8,NODE 10
 ! ===============================================================
 ! <#Component Sets>,<Number of Component Sets>
- #Component Sets,5
+ #Component Sets,6
 ! <Component Set>,<Component Set Count>,<Parent Object Type>,<Parent Object Name>,<Component Type>,<Component Name>,<Inlet Node ID>,<Outlet Node ID>,<Description>
  Component Set,1,BRANCH,AIR SYSTEM SUPPLY BRANCH,AIRLOOPHVAC:OUTDOORAIRSYSTEM,AIR LOOP HVAC OUTDOOR AIR SYSTEM 1,NODE 5,NODE 12,Air Nodes
- Component Set,2,BRANCH,AIR SYSTEM SUPPLY BRANCH,COILSYSTEM:COOLING:DX,1 SPD DX CLG COIL COILSYSTEM,NODE 12,NODE 17,Air Nodes
- Component Set,3,BRANCH,AIR SYSTEM SUPPLY BRANCH,FAN:VARIABLEVOLUME,FAN VARIABLE VOLUME 1,NODE 17,NODE 6,Air Nodes
- Component Set,4,AIRLOOPHVAC:OUTDOORAIRSYSTEM,AIR LOOP HVAC OUTDOOR AIR SYSTEM 1,OUTDOORAIR:MIXER,AIR LOOP HVAC OUTDOOR AIR SYSTEM 1 OUTDOOR AIR MIXER,NODE 10,NODE 12,Air Nodes
- Component Set,5,COILSYSTEM:COOLING:DX,1 SPD DX CLG COIL COILSYSTEM,COIL:COOLING:DX:SINGLESPEED,1 SPD DX CLG COIL,NODE 12,NODE 17,Air Nodes
+ Component Set,2,BRANCH,AIR SYSTEM SUPPLY BRANCH,COIL:HEATING:GAS,COIL HEATING GAS 1,NODE 12,NODE 13,Air Nodes
+ Component Set,3,BRANCH,AIR SYSTEM SUPPLY BRANCH,COILSYSTEM:COOLING:DX,1 SPD DX CLG COIL COILSYSTEM,NODE 13,NODE 17,Air Nodes
+ Component Set,4,BRANCH,AIR SYSTEM SUPPLY BRANCH,FAN:CONSTANTVOLUME,CONST SPD FAN,NODE 17,NODE 6,Air Nodes
+ Component Set,5,AIRLOOPHVAC:OUTDOORAIRSYSTEM,AIR LOOP HVAC OUTDOOR AIR SYSTEM 1,OUTDOORAIR:MIXER,AIR LOOP HVAC OUTDOOR AIR SYSTEM 1 OUTDOOR AIR MIXER,NODE 10,NODE 12,Air Nodes
+ Component Set,6,COILSYSTEM:COOLING:DX,1 SPD DX CLG COIL COILSYSTEM,COIL:COOLING:DX:SINGLESPEED,1 SPD DX CLG COIL,NODE 13,NODE 17,Air Nodes
 ! ===============================================================
 ! <# Plant Loops>,<Number of Plant Loops>
  #Plant Loops,0
@@ -140,17 +142,18 @@ Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.19 09:33
 ! <AirLoopHVAC Connector Branches>,<Connector Node Count>,<Connector Type>,<Connector Name>,<Inlet Branch>,<Outlet Branch>,<Loop Name>,<Loop Type>
 ! <AirLoopHVAC Connector Nodes>,<Connector Node Count>,<Connector Type>,<Connector Name>,<Inlet Node>,<Outlet Node>,<Loop Name>,<Loop Type>
  AirLoopHVAC,AIR SYSTEM,1,1,2,0,Yes
-   AirLoop Return Connections,1,AIR SYSTEM,13,NODE 8,3,NODE 5
-   AirLoop Supply Connections,1,AIR SYSTEM,12,NODE 7,6,NODE 6
+   AirLoop Return Connections,1,AIR SYSTEM,14,NODE 8,3,NODE 5
+   AirLoop Supply Connections,1,AIR SYSTEM,13,NODE 7,7,NODE 6
    Cooled Zone Info,1,FIRST FLOOR,1,NODE 9,AIR SYSTEM
    Cooled Zone Info,2,SECOND FLOOR,2,NODE 15,AIR SYSTEM
    Outdoor Air Connections,3,NODE 5,4,NODE 12,AIR SYSTEM
 ! ===============================================================
 ! <#Parent Node Connections>,<Number of Parent Node Connections>
- #Parent Node Connections,13
+ #Parent Node Connections,14
 ! <Parent Node Connection>,<Node Name>,<Node ObjectType>,<Node ObjectName>,<Node ConnectionType>,<Node FluidStream>
  Parent Node Connection,NODE 5,BRANCH,AIR SYSTEM SUPPLY BRANCH,Inlet,1
  Parent Node Connection,NODE 12,BRANCH,AIR SYSTEM SUPPLY BRANCH,Internal,1
+ Parent Node Connection,NODE 13,BRANCH,AIR SYSTEM SUPPLY BRANCH,Internal,1
  Parent Node Connection,NODE 17,BRANCH,AIR SYSTEM SUPPLY BRANCH,Internal,1
  Parent Node Connection,NODE 6,BRANCH,AIR SYSTEM SUPPLY BRANCH,Outlet,1
  Parent Node Connection,NODE 7,AIRLOOPHVAC:SUPPLYPATH,AIR SYSTEM SUPPLY PATH,Inlet,1
@@ -159,12 +162,12 @@ Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.19 09:33
  Parent Node Connection,NODE 8,AIRLOOPHVAC,AIR SYSTEM,Outlet,1
  Parent Node Connection,NODE 7,AIRLOOPHVAC,AIR SYSTEM,Inlet,1
  Parent Node Connection,NODE 6,AIRLOOPHVAC,AIR SYSTEM,Outlet,1
- Parent Node Connection,NODE 12,COILSYSTEM:COOLING:DX,1 SPD DX CLG COIL COILSYSTEM,Inlet,1
+ Parent Node Connection,NODE 13,COILSYSTEM:COOLING:DX,1 SPD DX CLG COIL COILSYSTEM,Inlet,1
  Parent Node Connection,NODE 17,COILSYSTEM:COOLING:DX,1 SPD DX CLG COIL COILSYSTEM,Outlet,1
  Parent Node Connection,NODE 17,COILSYSTEM:COOLING:DX,1 SPD DX CLG COIL COILSYSTEM,Sensor,1
 ! ===============================================================
 ! <#Non-Parent Node Connections>,<Number of Non-Parent Node Connections>
- #Non-Parent Node Connections,36
+ #Non-Parent Node Connections,42
 ! <Non-Parent Node Connection>,<Node Name>,<Node ObjectType>,<Node ObjectName>,<Node ConnectionType>,<Node FluidStream>
  Non-Parent Node Connection,NODE 10,OUTDOORAIR:NODELIST,OutdoorAir:NodeList,OutdoorAir,1
  Non-Parent Node Connection,NODE 3,SETPOINTMANAGER:SINGLEZONE:REHEAT,SETPOINT MANAGER SINGLE ZONE REHEAT 1,Sensor,1
@@ -173,6 +176,9 @@ Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.19 09:33
  Non-Parent Node Connection,NODE 6,SETPOINTMANAGER:MIXEDAIR,NODE 12 OS DEFAULT SPM,Sensor,1
  Non-Parent Node Connection,NODE 17,SETPOINTMANAGER:MIXEDAIR,NODE 12 OS DEFAULT SPM,Sensor,1
  Non-Parent Node Connection,NODE 12,SETPOINTMANAGER:MIXEDAIR,NODE 12 OS DEFAULT SPM,Setpoint,1
+ Non-Parent Node Connection,NODE 6,SETPOINTMANAGER:MIXEDAIR,NODE 13 OS DEFAULT SPM,Sensor,1
+ Non-Parent Node Connection,NODE 17,SETPOINTMANAGER:MIXEDAIR,NODE 13 OS DEFAULT SPM,Sensor,1
+ Non-Parent Node Connection,NODE 13,SETPOINTMANAGER:MIXEDAIR,NODE 13 OS DEFAULT SPM,Setpoint,1
  Non-Parent Node Connection,NODE 6,SETPOINTMANAGER:MIXEDAIR,NODE 17 OS DEFAULT SPM,Sensor,1
  Non-Parent Node Connection,NODE 17,SETPOINTMANAGER:MIXEDAIR,NODE 17 OS DEFAULT SPM,Sensor,1
  Non-Parent Node Connection,NODE 17,SETPOINTMANAGER:MIXEDAIR,NODE 17 OS DEFAULT SPM,Setpoint,1
@@ -194,11 +200,14 @@ Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.19 09:33
  Non-Parent Node Connection,NODE 10,OUTDOORAIR:MIXER,AIR LOOP HVAC OUTDOOR AIR SYSTEM 1 OUTDOOR AIR MIXER,Inlet,1
  Non-Parent Node Connection,NODE 11,OUTDOORAIR:MIXER,AIR LOOP HVAC OUTDOOR AIR SYSTEM 1 OUTDOOR AIR MIXER,ReliefAir,1
  Non-Parent Node Connection,NODE 5,OUTDOORAIR:MIXER,AIR LOOP HVAC OUTDOOR AIR SYSTEM 1 OUTDOOR AIR MIXER,Inlet,1
- Non-Parent Node Connection,NODE 17,FAN:VARIABLEVOLUME,FAN VARIABLE VOLUME 1,Inlet,1
- Non-Parent Node Connection,NODE 6,FAN:VARIABLEVOLUME,FAN VARIABLE VOLUME 1,Outlet,1
+ Non-Parent Node Connection,NODE 17,FAN:CONSTANTVOLUME,CONST SPD FAN,Inlet,1
+ Non-Parent Node Connection,NODE 6,FAN:CONSTANTVOLUME,CONST SPD FAN,Outlet,1
  Non-Parent Node Connection,NODE 12,CONTROLLER:OUTDOORAIR,CONTROLLER OUTDOOR AIR 1,Sensor,1
  Non-Parent Node Connection,NODE 10,CONTROLLER:OUTDOORAIR,CONTROLLER OUTDOOR AIR 1,Actuator,1
  Non-Parent Node Connection,NODE 11,CONTROLLER:OUTDOORAIR,CONTROLLER OUTDOOR AIR 1,Actuator,1
  Non-Parent Node Connection,NODE 5,CONTROLLER:OUTDOORAIR,CONTROLLER OUTDOOR AIR 1,Sensor,1
- Non-Parent Node Connection,NODE 12,COIL:COOLING:DX:SINGLESPEED,1 SPD DX CLG COIL,Inlet,1
+ Non-Parent Node Connection,NODE 12,COIL:HEATING:GAS,COIL HEATING GAS 1,Inlet,1
+ Non-Parent Node Connection,NODE 13,COIL:HEATING:GAS,COIL HEATING GAS 1,Outlet,1
+ Non-Parent Node Connection,NODE 13,COIL:HEATING:GAS,COIL HEATING GAS 1,Sensor,1
+ Non-Parent Node Connection,NODE 13,COIL:COOLING:DX:SINGLESPEED,1 SPD DX CLG COIL,Inlet,1
  Non-Parent Node Connection,NODE 17,COIL:COOLING:DX:SINGLESPEED,1 SPD DX CLG COIL,Outlet,1

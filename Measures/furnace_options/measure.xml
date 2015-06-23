@@ -2,7 +2,7 @@
   <schema_version>3.0</schema_version>
   <name>furnace_options</name>
   <uid>01ee2b73-d2b5-4537-9651-1b8a615bfb80</uid>
-  <version_id>51075466-d6e1-4562-a9cf-1ebedb2c762a</version_id>
+  <version_id>cd1c2f24-e829-42fb-971b-0a8464b99b12</version_id>
   <xml_checksum>C49A7DAB</xml_checksum>
   <class_name>FurnaceOptions</class_name>
   <display_name>Furnace Options</display_name>
@@ -136,7 +136,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>06D267D4</checksum>
+      <checksum>3730BDB9</checksum>
     </file>
   </files>
 </measure>

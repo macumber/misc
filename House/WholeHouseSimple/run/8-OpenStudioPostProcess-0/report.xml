@@ -1,84 +1,84 @@
 <Attribute>
-  <UUID>{b3bbbe5b-3b52-4203-94c9-a2338fa535b6}</UUID>
-  <VersionUUID>{c9c01b1e-bf07-49df-8bbb-89edd5442951}</VersionUUID>
+  <UUID>{48f07dfa-14b3-4781-b85d-feb848fc0a6a}</UUID>
+  <VersionUUID>{ec09574c-ca44-4d29-a95f-d8636d2c9791}</VersionUUID>
   <Name>Report</Name>
   <ValueType>AttributeVector</ValueType>
   <Value>
     <Attribute>
-      <UUID>{23ab831f-9597-46b4-a8b0-61a7839792e1}</UUID>
-      <VersionUUID>{133eea89-4161-4141-917d-b0c2f5a76a7f}</VersionUUID>
+      <UUID>{6f50681f-3000-4b3f-bf12-c5fe0ced5256}</UUID>
+      <VersionUUID>{827b0ba6-2d09-4590-8705-51fee8a309ab}</VersionUUID>
       <Name>Total Site Energy</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
-      <Value>66.48</Value>
+      <Value>273.56</Value>
       <Units>GJ</Units>
     </Attribute>
     <Attribute>
-      <UUID>{1528e406-247f-46f1-a1bf-5b7a426274a1}</UUID>
-      <VersionUUID>{582450a1-1a2c-4447-a904-7c67ab2fc9dc}</VersionUUID>
+      <UUID>{412b5eba-4480-4675-a31c-6846f0e68a43}</UUID>
+      <VersionUUID>{bc8a46b0-9e52-4b0e-871c-d2fe036c9a62}</VersionUUID>
       <Name>Net Site Energy</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
-      <Value>66.48</Value>
+      <Value>273.56</Value>
       <Units>GJ</Units>
     </Attribute>
     <Attribute>
-      <UUID>{afd8322b-5652-43a3-8e4a-d9635a057588}</UUID>
-      <VersionUUID>{e1a05785-1ab6-4072-88a2-d47347b551b7}</VersionUUID>
+      <UUID>{d8c2389b-020b-45c1-ad2c-a79af9a62ab4}</UUID>
+      <VersionUUID>{d1c6105f-6960-464c-a80c-2c390b634bdb}</VersionUUID>
       <Name>Total Source Energy</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
-      <Value>210.53</Value>
+      <Value>416.94</Value>
       <Units>GJ</Units>
     </Attribute>
     <Attribute>
-      <UUID>{131926e7-dbe7-47f1-a090-726e09650bad}</UUID>
-      <VersionUUID>{08e100f9-e01d-49b5-8f2a-af50b5e29c12}</VersionUUID>
+      <UUID>{53a16e22-da20-4095-bbcd-fea53f045470}</UUID>
+      <VersionUUID>{f09e8e7b-33a9-4911-9afa-003af8016e2b}</VersionUUID>
       <Name>Net Source Energy</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
-      <Value>210.53</Value>
+      <Value>416.94</Value>
       <Units>GJ</Units>
     </Attribute>
     <Attribute>
-      <UUID>{f1b97665-affd-4ff8-94aa-9782d25a431f}</UUID>
-      <VersionUUID>{a6479256-9f40-41e3-86ed-4ba82f931d43}</VersionUUID>
+      <UUID>{64d9b2bc-2a45-4df2-a459-981f8e107ee3}</UUID>
+      <VersionUUID>{cc6ae557-d114-4274-b2a7-b24395a62459}</VersionUUID>
       <Name>Net Site Energy Use Intensity</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
-      <Value>246.03</Value>
+      <Value>698.62</Value>
       <Units>MJ/m^2</Units>
     </Attribute>
     <Attribute>
-      <UUID>{aeb33f53-9571-4775-a99a-0d19bd44d82d}</UUID>
-      <VersionUUID>{18da442d-ad1f-4420-8598-572d517fd1fc}</VersionUUID>
+      <UUID>{2a70be4a-f9cd-4fde-8c8a-a6e4eb72321a}</UUID>
+      <VersionUUID>{64b24ef6-c254-449d-bd1e-ebb4e88374c1}</VersionUUID>
       <Name>Instantaneous Peak Electricity Demand</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
-      <Value>5518.49</Value>
+      <Value>5362.16</Value>
       <Units>kW</Units>
     </Attribute>
     <Attribute>
-      <UUID>{c1bc0f15-755c-42ab-af20-5ff3894936c2}</UUID>
-      <VersionUUID>{8a6ab1a8-371b-4161-8b7a-b9413289e054}</VersionUUID>
+      <UUID>{c74eb752-2372-43de-89da-0adc6429aec8}</UUID>
+      <VersionUUID>{908c0cef-fa9d-4d72-977e-c78f1115d83b}</VersionUUID>
       <Name>Electricity Total End Uses</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
-      <Value>66.48</Value>
+      <Value>57.8</Value>
       <Units>GJ</Units>
     </Attribute>
     <Attribute>
-      <UUID>{5a643e45-2321-4a95-afc1-036ae3f3ceba}</UUID>
-      <VersionUUID>{23b5be7f-b9fa-47e7-93eb-f6d0d50d47aa}</VersionUUID>
+      <UUID>{ee37d71b-bcb0-421f-9440-1f2ead918042}</UUID>
+      <VersionUUID>{afe4053c-19e9-4c3d-a087-469b7b1d6426}</VersionUUID>
       <Name>Natural Gas Total End Uses</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
-      <Value>0</Value>
+      <Value>215.76</Value>
       <Units>GJ</Units>
     </Attribute>
     <Attribute>
-      <UUID>{b81c3206-a9b3-4a2f-8d7b-9ead53c13347}</UUID>
-      <VersionUUID>{34557d22-f891-479d-8c20-a9d72c772c8a}</VersionUUID>
+      <UUID>{24521984-9b9c-453b-b967-4beb63dafd9a}</UUID>
+      <VersionUUID>{bb040dec-9d3b-491e-bb05-d434c2c18e26}</VersionUUID>
       <Name>District Cooling Total End Uses</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
@@ -86,8 +86,8 @@
       <Units>GJ</Units>
     </Attribute>
     <Attribute>
-      <UUID>{52240bb7-2423-40e8-be98-4e6c81c32de6}</UUID>
-      <VersionUUID>{78463632-596c-42ec-8800-8a8d5e9dcf05}</VersionUUID>
+      <UUID>{15209762-c2ef-4188-b9e9-61cba023820d}</UUID>
+      <VersionUUID>{065a91ad-905a-4e07-962d-c0bc4ad3dca9}</VersionUUID>
       <Name>District Heating Total End Uses</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
@@ -95,8 +95,8 @@
       <Units>GJ</Units>
     </Attribute>
     <Attribute>
-      <UUID>{aaeb1972-394d-42dc-8ddc-701f89668e8a}</UUID>
-      <VersionUUID>{ec86e706-82f1-40b3-9ad6-c532e26b91cf}</VersionUUID>
+      <UUID>{87efbb06-dbb8-417a-bae3-e716c1e398d2}</UUID>
+      <VersionUUID>{b4ad14e9-7a14-4aae-9a1b-35d54a5d1b21}</VersionUUID>
       <Name>Other Fuel Total End Uses</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
@@ -104,44 +104,53 @@
       <Units>GJ</Units>
     </Attribute>
     <Attribute>
-      <UUID>{e22f05d5-c980-44ff-89b5-0b72b6fc2dfa}</UUID>
-      <VersionUUID>{901e6ad0-7ed7-451a-a087-43ec8f629e5d}</VersionUUID>
+      <UUID>{55fa9d06-15a6-4055-a0d4-9ad3c376c38f}</UUID>
+      <VersionUUID>{f8bc7b99-32a2-49e6-86cf-f66b0c1d0f87}</VersionUUID>
       <Name>EndUses.Electricity.Cooling.General</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
-      <Value>4.29</Value>
+      <Value>3.48</Value>
       <Units>GJ</Units>
     </Attribute>
     <Attribute>
-      <UUID>{8dc1d4a2-6330-4392-ac9a-99a050c8976a}</UUID>
-      <VersionUUID>{0a0de0d4-6263-4902-a927-1c1a588d6d7e}</VersionUUID>
+      <UUID>{57d4d1e6-aa65-4dd8-a622-c763bc8b06f1}</UUID>
+      <VersionUUID>{ab0f1cdb-9da7-440a-adc5-b9b04be86bfe}</VersionUUID>
       <Name>EndUses.Electricity.InteriorLights.General</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
-      <Value>10.36</Value>
+      <Value>14.66</Value>
       <Units>GJ</Units>
     </Attribute>
     <Attribute>
-      <UUID>{b00d9332-6295-4d07-bf96-f35f21accdac}</UUID>
-      <VersionUUID>{10a98144-b3c4-46ff-a1ee-0e572c79ca01}</VersionUUID>
+      <UUID>{243ee8c8-570b-4cee-887d-d6fae3401ddf}</UUID>
+      <VersionUUID>{2d35146f-de72-44d6-8e88-5f5007470d51}</VersionUUID>
       <Name>EndUses.Electricity.InteriorEquipment.General</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
-      <Value>25.34</Value>
+      <Value>33.15</Value>
       <Units>GJ</Units>
     </Attribute>
     <Attribute>
-      <UUID>{3ecee568-f134-4883-a2e1-7492b20a3f6b}</UUID>
-      <VersionUUID>{e19653b8-fb62-47c4-87a1-e1ce718d5725}</VersionUUID>
+      <UUID>{7a849e99-09ae-41fd-8602-4cd18568688b}</UUID>
+      <VersionUUID>{889807b2-721d-4630-be08-fb293f2006ab}</VersionUUID>
       <Name>EndUses.Electricity.Fans.General</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
-      <Value>26.49</Value>
+      <Value>6.51</Value>
       <Units>GJ</Units>
     </Attribute>
     <Attribute>
-      <UUID>{d0fa860b-4369-48bf-be28-4723bbb73604}</UUID>
-      <VersionUUID>{3d1d62ab-dac3-4738-837d-3b4b895f3ef7}</VersionUUID>
+      <UUID>{2a02b479-3aff-4cd7-a5f0-c861bb3b13b1}</UUID>
+      <VersionUUID>{61103a3e-faa5-4a77-be48-771d2b019bdf}</VersionUUID>
+      <Name>EndUses.Gas.Heating.General</Name>
+      <Source>OpenStudioPostProcess</Source>
+      <ValueType>Double</ValueType>
+      <Value>215.76</Value>
+      <Units>GJ</Units>
+    </Attribute>
+    <Attribute>
+      <UUID>{d6a7fe90-9655-4c4d-9699-0555fd26d1d7}</UUID>
+      <VersionUUID>{2a6c93a7-ead0-499e-9532-79a854fe37aa}</VersionUUID>
       <Name>First Year Capital Costs</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
@@ -149,8 +158,8 @@
       <Units>$</Units>
     </Attribute>
     <Attribute>
-      <UUID>{7f0b9a8f-8380-4000-bedd-d0fbdbcb41c3}</UUID>
-      <VersionUUID>{a40f2bc1-0ac0-4cbf-b0a7-ce05e66ab358}</VersionUUID>
+      <UUID>{8efbebc0-381d-4224-875c-76ea2318b486}</UUID>
+      <VersionUUID>{944460ba-4a26-4f60-b96f-98b70263ac3c}</VersionUUID>
       <Name>Total Life Cycle Cost</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
@@ -158,98 +167,122 @@
       <Units>$</Units>
     </Attribute>
     <Attribute>
-      <UUID>{a8b88ec6-83ae-4611-9877-3d54925ae3d1}</UUID>
-      <VersionUUID>{5c162709-cf33-46f8-a0e9-febf03cfc599}</VersionUUID>
+      <UUID>{24c4ee08-e9c2-40c9-8f1c-2953487daf60}</UUID>
+      <VersionUUID>{524a752c-0ed0-4049-a5ce-dc49905d8850}</VersionUUID>
       <Name>floorArea</Name>
       <DisplayName>Floor Area</DisplayName>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
-      <Value>270.194436642304</Value>
+      <Value>391.572310015104</Value>
       <Units>m^2</Units>
     </Attribute>
     <Attribute>
-      <UUID>{b7b5eaa0-5855-40ed-961b-35e99113cc9a}</UUID>
-      <VersionUUID>{69825313-49b4-4f3b-a2cb-6adbfc1cf262}</VersionUUID>
+      <UUID>{01e997ef-26b3-4c8a-be54-92f01c0e9d55}</UUID>
+      <VersionUUID>{a3ae91bd-0860-4bcb-a421-86cbe6510072}</VersionUUID>
       <Name>conditionedFloorArea</Name>
       <DisplayName>Conditioned Floor Area</DisplayName>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>Double</ValueType>
-      <Value>183.6005102176</Value>
+      <Value>202.2159568576</Value>
       <Units>m^2</Units>
     </Attribute>
     <Attribute>
-      <UUID>{dc8dda04-0645-4935-bf66-75f1af35690b}</UUID>
-      <VersionUUID>{5b07e943-944c-4fbb-9fe4-2dfa968b54d4}</VersionUUID>
+      <UUID>{67a58b14-5b96-440c-9aa8-bf776eb00b09}</UUID>
+      <VersionUUID>{706b85e6-f699-4948-a6f6-31a1c23b766e}</VersionUUID>
       <Name>EndUses</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>AttributeVector</ValueType>
       <Value>
         <Attribute>
-          <UUID>{3fd22c09-a590-47d8-bd68-ed42142c4468}</UUID>
-          <VersionUUID>{56d00170-6cec-405a-ac6f-7b0a2b0df94c}</VersionUUID>
+          <UUID>{32c1b95f-c9df-4653-87c0-8c4e3067f5c5}</UUID>
+          <VersionUUID>{fcfd51e7-787a-4202-8e9d-94f67ac287fd}</VersionUUID>
           <Name>Electricity</Name>
           <ValueType>AttributeVector</ValueType>
           <Value>
             <Attribute>
-              <UUID>{2082bdb7-518e-40a3-8769-985c72af70ea}</UUID>
-              <VersionUUID>{1daa0865-bb2e-49a8-b3b6-96dce438caf3}</VersionUUID>
+              <UUID>{5ad5de30-77c5-4751-90fb-aa6c30e79104}</UUID>
+              <VersionUUID>{3ae094bd-5249-4004-92d2-044747986326}</VersionUUID>
               <Name>Cooling</Name>
               <ValueType>AttributeVector</ValueType>
               <Value>
                 <Attribute>
-                  <UUID>{b7ff97e6-fd81-46da-a746-5ef0547c9e84}</UUID>
-                  <VersionUUID>{90aec267-8694-4bf6-831d-c847c06e7fbb}</VersionUUID>
+                  <UUID>{955dc5c4-7483-4722-8a3c-f7a54b2329f3}</UUID>
+                  <VersionUUID>{1d139cf8-dac3-4dad-9163-5dd1bf8daefd}</VersionUUID>
                   <Name>General</Name>
                   <ValueType>Double</ValueType>
-                  <Value>4.29</Value>
+                  <Value>3.48</Value>
                   <Units>GJ</Units>
                 </Attribute>
               </Value>
             </Attribute>
             <Attribute>
-              <UUID>{639d9b64-d141-4926-ac82-05e681abf5cd}</UUID>
-              <VersionUUID>{e1de0603-ea94-4349-a520-f4f29b1a31bd}</VersionUUID>
+              <UUID>{55233804-18ed-4e12-9722-fd8aab3bfb97}</UUID>
+              <VersionUUID>{68bab86b-8627-42bb-b338-29b7c52c2f53}</VersionUUID>
               <Name>InteriorLights</Name>
               <ValueType>AttributeVector</ValueType>
               <Value>
                 <Attribute>
-                  <UUID>{3a7c2271-e16e-4408-880f-9a58f7a1967b}</UUID>
-                  <VersionUUID>{79afa53d-4488-401e-a183-574c4752bd18}</VersionUUID>
+                  <UUID>{83b9d925-25ae-44db-a9ee-9562c5ee15d6}</UUID>
+                  <VersionUUID>{a2e17f75-c8aa-47f1-bec3-1dd94911312a}</VersionUUID>
                   <Name>General</Name>
                   <ValueType>Double</ValueType>
-                  <Value>10.36</Value>
+                  <Value>14.66</Value>
                   <Units>GJ</Units>
                 </Attribute>
               </Value>
             </Attribute>
             <Attribute>
-              <UUID>{d7ed8f9b-54fa-4bf8-a79c-4c38c0036625}</UUID>
-              <VersionUUID>{3b719247-4657-445b-a8e8-22b78eff21e6}</VersionUUID>
+              <UUID>{dc5e6c4a-8485-4258-b57d-133921bec8af}</UUID>
+              <VersionUUID>{2ab0894b-8ada-4891-b56b-9913aed174a0}</VersionUUID>
               <Name>InteriorEquipment</Name>
               <ValueType>AttributeVector</ValueType>
               <Value>
                 <Attribute>
-                  <UUID>{e13dbba9-f4b8-43ca-9a00-98dd4cedcdc3}</UUID>
-                  <VersionUUID>{6e6af634-9b9f-4320-af21-b0e49e37acd2}</VersionUUID>
+                  <UUID>{ebd31a56-c9ad-4a3f-b74a-2d4c27df3ae7}</UUID>
+                  <VersionUUID>{191c53e9-ebcd-45e4-b2d5-f21d3b0210a3}</VersionUUID>
                   <Name>General</Name>
                   <ValueType>Double</ValueType>
-                  <Value>25.34</Value>
+                  <Value>33.15</Value>
                   <Units>GJ</Units>
                 </Attribute>
               </Value>
             </Attribute>
             <Attribute>
-              <UUID>{29c8cc77-5349-4fd6-86d8-321f3b1b3824}</UUID>
-              <VersionUUID>{4ebfd732-2ba3-4d76-a246-e7f58705a862}</VersionUUID>
+              <UUID>{8187b590-dcb4-4bb3-aa62-e37a9ea23d1b}</UUID>
+              <VersionUUID>{5b9cd688-4769-4408-81d8-caa4ecd214cd}</VersionUUID>
               <Name>Fans</Name>
               <ValueType>AttributeVector</ValueType>
               <Value>
                 <Attribute>
-                  <UUID>{19684175-6b00-4b1a-9643-f489f414d828}</UUID>
-                  <VersionUUID>{5168dccd-a9d7-4a35-a8f4-784dfe584256}</VersionUUID>
+                  <UUID>{9fcfdbc7-2e7b-48a5-8490-be1cfdd0ba05}</UUID>
+                  <VersionUUID>{47d6cf68-9f8d-4c53-8d5f-9bb05ba2846a}</VersionUUID>
                   <Name>General</Name>
                   <ValueType>Double</ValueType>
-                  <Value>26.49</Value>
+                  <Value>6.51</Value>
+                  <Units>GJ</Units>
+                </Attribute>
+              </Value>
+            </Attribute>
+          </Value>
+        </Attribute>
+        <Attribute>
+          <UUID>{647ebd40-1643-45b0-82f7-d88655095882}</UUID>
+          <VersionUUID>{cfa75646-e245-4694-9fba-904ff01973c8}</VersionUUID>
+          <Name>Gas</Name>
+          <ValueType>AttributeVector</ValueType>
+          <Value>
+            <Attribute>
+              <UUID>{754e7c75-5aa7-466d-a4b1-2f71c871df46}</UUID>
+              <VersionUUID>{3549248f-56b5-49ac-b2e3-d0d6dc8d4870}</VersionUUID>
+              <Name>Heating</Name>
+              <ValueType>AttributeVector</ValueType>
+              <Value>
+                <Attribute>
+                  <UUID>{4f62f046-da40-4f39-8966-0f7ac9ded7a2}</UUID>
+                  <VersionUUID>{d5789564-8498-4ff9-a696-e35438de2aa8}</VersionUUID>
+                  <Name>General</Name>
+                  <ValueType>Double</ValueType>
+                  <Value>215.76</Value>
                   <Units>GJ</Units>
                 </Attribute>
               </Value>
@@ -259,15 +292,15 @@
       </Value>
     </Attribute>
     <Attribute>
-      <UUID>{080d429d-ec01-47f1-8a5f-0e8d28bbf625}</UUID>
-      <VersionUUID>{76eeb9ee-abfc-4cd8-b520-8e0e2983f5aa}</VersionUUID>
+      <UUID>{e4abd21c-0b6d-45b3-b1f3-c972be1aa0d1}</UUID>
+      <VersionUUID>{6cf3281c-0db1-4ae4-bf76-069c0e5b1ec0}</VersionUUID>
       <Name>CalibrationResult</Name>
       <Source>OpenStudioPostProcess</Source>
       <ValueType>AttributeVector</ValueType>
       <Value>
         <Attribute>
-          <UUID>{e3a96352-7a45-4d82-83c1-e4b71b874a9e}</UUID>
-          <VersionUUID>{f960afe5-59d2-4b4a-a773-d281a19f1097}</VersionUUID>
+          <UUID>{93667ed9-db97-45c4-91f5-1aa2804d01cb}</UUID>
+          <VersionUUID>{b8623399-a974-4b5b-a07d-1fa260bd01ed}</VersionUUID>
           <Name>utilityBills</Name>
           <ValueType>AttributeVector</ValueType>
           <Value/>

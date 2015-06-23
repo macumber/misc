@@ -1,16 +1,26 @@
 Missing Energy+.ini
 EnergyPlus Starting
-EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.19 09:33
+EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.23 12:52
 Processing Data Dictionary
 Processing Input File
 Initializing Response Factors
-Calculating CTFs for "CBECS 1980-2004 EXTROOF IEAD CLIMATEZONE 5B", Construction # 1
-Calculating CTFs for "CBECS 1980-2004 EXTWALL STEELFRAME CLIMATEZONE 5", Construction # 2
-Calculating CTFs for "EXTERIOR DOOR", Construction # 4
-Calculating CTFs for "EXTSLABCARPET 4IN CLIMATEZONE 1-8", Construction # 5
-Calculating CTFs for "INTERIOR CEILING", Construction # 6
-Calculating CTFs for "INTERIOR DOOR", Construction # 7
-Calculating CTFs for "INTERIOR WALL", Construction # 10
+Calculating CTFs for "ASHRAE 189.1-2009 ATTICFLOOR CLIMATEZONE 1-8", Construction # 1
+Calculating CTFs for "ASHRAE 189.1-2009 EXTWALL WOODFRAME CLIMATEZONE 6-8", Construction # 2
+Calculating CTFs for "ASHRAE 90.1-2004 ATTICFLOOR CLIMATEZONE 6-8", Construction # 3
+Calculating CTFs for "ASHRAE 90.1-2004 ATTICFLOOR CLIMATEZONE 6-8", Construction # 3
+Calculating CTFs for "ASHRAE 90.1-2004 EXTWALL WOODFRAME CLIMATEZONE 1-7", Construction # 4
+Calculating CTFs for "ASHRAE 90.1-2004 EXTWALL WOODFRAME CLIMATEZONE 8", Construction # 5
+Calculating CTFs for "ATTICROOF CLIMATEZONE 1-8", Construction # 6
+Calculating CTFs for "CBECS 1980-2004 EXTROOF ATTICFLOOR CLIMATEZONE 5B", Construction # 7
+Calculating CTFs for "CBECS 1980-2004 EXTROOF IEAD CLIMATEZONE 5B", Construction # 8
+Calculating CTFs for "CBECS 1980-2004 EXTWALL STEELFRAME CLIMATEZONE 5", Construction # 9
+Calculating CTFs for "CBECS 1980-2004 EXTWALL WOODFRAME CLIMATEZONE 5", Construction # 10
+Calculating CTFs for "CBECS BEFORE-1980 EXTROOF ATTICFLOOR CLIMATEZONE 5B", Construction # 12
+Calculating CTFs for "EXTERIOR DOOR", Construction # 13
+Calculating CTFs for "EXTSLABCARPET 4IN CLIMATEZONE 1-8", Construction # 14
+Calculating CTFs for "INTERIOR CEILING", Construction # 15
+Calculating CTFs for "INTERIOR DOOR", Construction # 16
+Calculating CTFs for "INTERIOR WALL", Construction # 19
 Initializing Window Optical Properties
 Initializing Solar Calculations
 Allocate Solar Module Arrays
@@ -280,4 +290,4 @@ Updating Shadowing Calculations, Start Date=12/31
 Writing tabular output file results using HTML format.
 Computing Life Cycle Costs and Reporting
 Writing final SQL reports
-EnergyPlus Run Time=00hr 00min 29.00sec
+EnergyPlus Run Time=00hr 00min 40.00sec

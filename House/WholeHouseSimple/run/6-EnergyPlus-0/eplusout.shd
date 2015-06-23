@@ -4,10 +4,9 @@
 ..But all surfaces are used in the calculations.
  ==================================
  Surface=SURFACE 1 is used as Receiving Surface in calculations and is convex.
- Number of general casting surfaces=           3
+ Number of general casting surfaces=           2
  ..Surface=SURFACE 23
- ..Surface=SURFACE 31
- ..Surface=SURFACE 36
+ ..Surface=SURFACE 62
  Number of back surfaces=           0
  Number of receiving sub surfaces=           1
  ....Surface=SUB SURFACE 23
@@ -18,90 +17,44 @@
  Number of receiving sub surfaces=           0
  ==================================
  Surface=SURFACE 10 is used as Receiving Surface in calculations and is convex.
- Number of general casting surfaces=           3
+ Number of general casting surfaces=           2
  ..Surface=SURFACE 23
  ..Surface=SURFACE 24
- ..Surface=SURFACE 36
- Number of back surfaces=           0
- Number of receiving sub surfaces=           1
- ....Surface=SUB SURFACE 10
- ==================================
- Surface=SUB SURFACE 10 is not used as Receiving Surface in calculations.
- Number of general casting surfaces=           0
  Number of back surfaces=           0
  Number of receiving sub surfaces=           0
  ==================================
  Surface=SURFACE 11 is used as Receiving Surface in calculations and is convex.
- Number of general casting surfaces=           5
- ..Surface=SURFACE 7
+ Number of general casting surfaces=           3
  ..Surface=SURFACE 23
- ..Surface=SURFACE 31
- ..Surface=SURFACE 36
  ..Surface=SURFACE 40
- Number of back surfaces=           0
- Number of receiving sub surfaces=           1
- ....Surface=SUB SURFACE 11
- ==================================
- Surface=SUB SURFACE 11 is not used as Receiving Surface in calculations.
- Number of general casting surfaces=           0
+ ..Surface=SURFACE 62
  Number of back surfaces=           0
  Number of receiving sub surfaces=           0
  ==================================
  Surface=SURFACE 2 is used as Receiving Surface in calculations and is convex.
  Number of general casting surfaces=           0
  Number of back surfaces=           0
- Number of receiving sub surfaces=           1
- ....Surface=SUB SURFACE 15
- ==================================
- Surface=SUB SURFACE 15 is not used as Receiving Surface in calculations.
- Number of general casting surfaces=           0
- Number of back surfaces=           0
  Number of receiving sub surfaces=           0
  ==================================
  Surface=SURFACE 4 is used as Receiving Surface in calculations and is convex.
- Number of general casting surfaces=           0
- Number of back surfaces=           0
- Number of receiving sub surfaces=           1
- ....Surface=SUB SURFACE 8
- ==================================
- Surface=SUB SURFACE 8 is not used as Receiving Surface in calculations.
- Number of general casting surfaces=           0
+ Number of general casting surfaces=           1
+ ..Surface=SURFACE 62
  Number of back surfaces=           0
  Number of receiving sub surfaces=           0
  ==================================
  Surface=SURFACE 5 is used as Receiving Surface in calculations and is convex.
  Number of general casting surfaces=           0
  Number of back surfaces=           0
- Number of receiving sub surfaces=           1
- ....Surface=SUB SURFACE 3
- ==================================
- Surface=SUB SURFACE 3 is not used as Receiving Surface in calculations.
- Number of general casting surfaces=           0
- Number of back surfaces=           0
  Number of receiving sub surfaces=           0
  ==================================
  Surface=SURFACE 7 is used as Receiving Surface in calculations and is convex.
- Number of general casting surfaces=           4
- ..Surface=SURFACE 11
+ Number of general casting surfaces=           2
  ..Surface=SURFACE 23
- ..Surface=SURFACE 31
- ..Surface=SURFACE 36
- Number of back surfaces=           0
- Number of receiving sub surfaces=           1
- ....Surface=SUB SURFACE 25
- ==================================
- Surface=SUB SURFACE 25 is not used as Receiving Surface in calculations.
- Number of general casting surfaces=           0
+ ..Surface=SURFACE 62
  Number of back surfaces=           0
  Number of receiving sub surfaces=           0
  ==================================
  Surface=SURFACE 8 is used as Receiving Surface in calculations and is convex.
- Number of general casting surfaces=           0
- Number of back surfaces=           0
- Number of receiving sub surfaces=           1
- ....Surface=SUB SURFACE 21
- ==================================
- Surface=SUB SURFACE 21 is not used as Receiving Surface in calculations.
  Number of general casting surfaces=           0
  Number of back surfaces=           0
  Number of receiving sub surfaces=           0
@@ -137,12 +90,10 @@
  Number of receiving sub surfaces=           0
  ==================================
  Surface=SURFACE 9 is used as Receiving Surface in calculations and is convex.
- Number of general casting surfaces=           6
+ Number of general casting surfaces=           4
  ..Surface=SURFACE 23
  ..Surface=SURFACE 24
  ..Surface=SURFACE 48
- ..Surface=SURFACE 31
- ..Surface=SURFACE 36
  ..Surface=SURFACE 40
  Number of back surfaces=           0
  Number of receiving sub surfaces=           0
@@ -164,11 +115,8 @@
  Number of receiving sub surfaces=           0
  ==================================
  Surface=SURFACE 23 is used as Receiving Surface in calculations and is convex.
- Number of general casting surfaces=           6
+ Number of general casting surfaces=           3
  ..Surface=SURFACE 1
- ..Surface=SURFACE 10
- ..Surface=SURFACE 11
- ..Surface=SURFACE 7
  ..Surface=SURFACE 48
  ..Surface=SURFACE 40
  Number of back surfaces=           0
@@ -181,8 +129,7 @@
  Number of receiving sub surfaces=           0
  ==================================
  Surface=SURFACE 24 is used as Receiving Surface in calculations and is convex.
- Number of general casting surfaces=           3
- ..Surface=SURFACE 10
+ Number of general casting surfaces=           2
  ..Surface=SURFACE 48
  ..Surface=SURFACE 40
  Number of back surfaces=           0
@@ -257,11 +204,8 @@
  Number of back surfaces=           0
  Number of receiving sub surfaces=           0
  ==================================
- Surface=SURFACE 30 is used as Receiving Surface in calculations and is convex.
- Number of general casting surfaces=           3
- ..Surface=SURFACE 31
- ..Surface=SURFACE 36
- ..Surface=SURFACE 40
+ Surface=SURFACE 30 is not used as Receiving Surface in calculations.
+ Number of general casting surfaces=           0
  Number of back surfaces=           0
  Number of receiving sub surfaces=           0
  ==================================
@@ -283,13 +227,20 @@
  Surface=SURFACE 18 is used as Receiving Surface in calculations and is convex.
  Number of general casting surfaces=           0
  Number of back surfaces=           0
+ Number of receiving sub surfaces=           1
+ ....Surface=SUB SURFACE 1
+ ==================================
+ Surface=SUB SURFACE 1 is not used as Receiving Surface in calculations.
+ Number of general casting surfaces=           0
+ Number of back surfaces=           0
  Number of receiving sub surfaces=           0
  ==================================
  Surface=SURFACE 48 is used as Receiving Surface in calculations and is convex.
- Number of general casting surfaces=           3
+ Number of general casting surfaces=           4
  ..Surface=SURFACE 23
  ..Surface=SURFACE 24
- ..Surface=SURFACE 36
+ ..Surface=SURFACE 53
+ ..Surface=SURFACE 57
  Number of back surfaces=           0
  Number of receiving sub surfaces=           0
  ==================================
@@ -309,17 +260,6 @@
  Number of receiving sub surfaces=           0
  ==================================
  Surface=SURFACE 16 is not used as Receiving Surface in calculations.
- Number of general casting surfaces=           0
- Number of back surfaces=           0
- Number of receiving sub surfaces=           0
- ==================================
- Surface=SURFACE 31 is used as Receiving Surface in calculations and is convex.
- Number of general casting surfaces=           0
- Number of back surfaces=           0
- Number of receiving sub surfaces=           1
- ....Surface=SUB SURFACE 6
- ==================================
- Surface=SUB SURFACE 6 is not used as Receiving Surface in calculations.
  Number of general casting surfaces=           0
  Number of back surfaces=           0
  Number of receiving sub surfaces=           0
@@ -357,19 +297,6 @@
  Number of back surfaces=           0
  Number of receiving sub surfaces=           0
  ==================================
- Surface=SURFACE 36 is used as Receiving Surface in calculations and is convex.
- Number of general casting surfaces=           2
- ..Surface=SURFACE 48
- ..Surface=SURFACE 40
- Number of back surfaces=           0
- Number of receiving sub surfaces=           1
- ....Surface=SUB SURFACE 20
- ==================================
- Surface=SUB SURFACE 20 is not used as Receiving Surface in calculations.
- Number of general casting surfaces=           0
- Number of back surfaces=           0
- Number of receiving sub surfaces=           0
- ==================================
  Surface=SURFACE 38 is used as Receiving Surface in calculations and is convex.
  Number of general casting surfaces=           0
  Number of back surfaces=           0
@@ -382,14 +309,11 @@
  Number of receiving sub surfaces=           0
  ==================================
  Surface=SURFACE 40 is used as Receiving Surface in calculations and is convex.
- Number of general casting surfaces=           1
- ..Surface=SURFACE 36
- Number of back surfaces=           0
- Number of receiving sub surfaces=           1
- ....Surface=SUB SURFACE 5
- ==================================
- Surface=SUB SURFACE 5 is not used as Receiving Surface in calculations.
- Number of general casting surfaces=           0
+ Number of general casting surfaces=           4
+ ..Surface=SURFACE 23
+ ..Surface=SURFACE 24
+ ..Surface=SURFACE 53
+ ..Surface=SURFACE 57
  Number of back surfaces=           0
  Number of receiving sub surfaces=           0
  ==================================
@@ -404,6 +328,11 @@
  Number of back surfaces=           0
  Number of receiving sub surfaces=           0
  ==================================
+ Surface=SURFACE 54 is used as Receiving Surface in calculations and is convex.
+ Number of general casting surfaces=           0
+ Number of back surfaces=           0
+ Number of receiving sub surfaces=           0
+ ==================================
  Surface=SURFACE 37 is not used as Receiving Surface in calculations.
  Number of general casting surfaces=           0
  Number of back surfaces=           0
@@ -414,12 +343,85 @@
  Number of back surfaces=           0
  Number of receiving sub surfaces=           0
  ==================================
- Surface=SURFACE 33 is used as Receiving Surface in calculations and is convex.
+ Surface=SURFACE 55 is not used as Receiving Surface in calculations.
  Number of general casting surfaces=           0
  Number of back surfaces=           0
  Number of receiving sub surfaces=           0
  ==================================
- Surface=SURFACE 39 is used as Receiving Surface in calculations and is convex.
+ Surface=SURFACE 33 is not used as Receiving Surface in calculations.
+ Number of general casting surfaces=           0
+ Number of back surfaces=           0
+ Number of receiving sub surfaces=           0
+ ==================================
+ Surface=SURFACE 39 is not used as Receiving Surface in calculations.
+ Number of general casting surfaces=           0
+ Number of back surfaces=           0
+ Number of receiving sub surfaces=           0
+ ==================================
+ Surface=SURFACE 51 is not used as Receiving Surface in calculations.
+ Number of general casting surfaces=           0
+ Number of back surfaces=           0
+ Number of receiving sub surfaces=           0
+ ==================================
+ Surface=SURFACE 53 is used as Receiving Surface in calculations and is convex.
+ Number of general casting surfaces=           2
+ ..Surface=SURFACE 48
+ ..Surface=SURFACE 40
+ Number of back surfaces=           0
+ Number of receiving sub surfaces=           0
+ ==================================
+ Surface=SURFACE 52 is used as Receiving Surface in calculations and is convex.
+ Number of general casting surfaces=           0
+ Number of back surfaces=           0
+ Number of receiving sub surfaces=           0
+ ==================================
+ Surface=SURFACE 56 is used as Receiving Surface in calculations and is convex.
+ Number of general casting surfaces=           0
+ Number of back surfaces=           0
+ Number of receiving sub surfaces=           0
+ ==================================
+ Surface=SURFACE 62 is used as Receiving Surface in calculations and is convex.
+ Number of general casting surfaces=           0
+ Number of back surfaces=           0
+ Number of receiving sub surfaces=           0
+ ==================================
+ Surface=SURFACE 63 is used as Receiving Surface in calculations and is convex.
+ Number of general casting surfaces=           0
+ Number of back surfaces=           0
+ Number of receiving sub surfaces=           0
+ ==================================
+ Surface=SURFACE 31 is not used as Receiving Surface in calculations.
+ Number of general casting surfaces=           0
+ Number of back surfaces=           0
+ Number of receiving sub surfaces=           0
+ ==================================
+ Surface=SURFACE 36 is not used as Receiving Surface in calculations.
+ Number of general casting surfaces=           0
+ Number of back surfaces=           0
+ Number of receiving sub surfaces=           0
+ ==================================
+ Surface=SURFACE 64 is not used as Receiving Surface in calculations.
+ Number of general casting surfaces=           0
+ Number of back surfaces=           0
+ Number of receiving sub surfaces=           0
+ ==================================
+ Surface=SURFACE 57 is used as Receiving Surface in calculations and is convex.
+ Number of general casting surfaces=           1
+ ..Surface=SURFACE 40
+ Number of back surfaces=           0
+ Number of receiving sub surfaces=           0
+ ==================================
+ Surface=SURFACE 59 is used as Receiving Surface in calculations and is convex.
+ Number of general casting surfaces=           0
+ Number of back surfaces=           0
+ Number of receiving sub surfaces=           0
+ ==================================
+ Surface=SURFACE 60 is used as Receiving Surface in calculations and is convex.
+ Number of general casting surfaces=           0
+ Number of back surfaces=           0
+ Number of receiving sub surfaces=           0
+ ==================================
+ Surface=SURFACE 61 is used as Receiving Surface in calculations and is convex.
  Number of general casting surfaces=           0
  Number of back surfaces=           0
  Number of receiving sub surfaces=           0

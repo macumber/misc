@@ -1,19 +1,39 @@
-Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.19 09:33,IDD_Version 8.2.0
+Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.23 12:52,IDD_Version 8.2.0
    ** Warning ** IP: Note -- Some missing fields have been filled with defaults. See the audit output file for details.
    ************* Beginning Zone Sizing Calculations
+   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
+   **   ~~~   ** ..Location object=WESTMINSTER (COLORADO)
+   **   ~~~   ** ..Weather File Location=Denver Centennial  Golden   Nr CO USA TMY3 WMO#=724666
+   **   ~~~   ** ..due to location differences, Latitude difference=[0.16] degrees, Longitude difference=[0.15] degrees.
+   **   ~~~   ** ..Time Zone difference=[0.0] hour(s), Elevation difference=[14.17] percent, [226.95] meters.
    ** Warning ** GetHTSurfaceData: Surfaces with interface to Ground found but no "Ground Temperatures" were input.
-   **   ~~~   ** Found first in surface=SURFACE 12
+   **   ~~~   ** Found first in surface=SURFACE 10
    **   ~~~   ** Defaults, constant throughout the year of (18.0) will be used.
-   ** Warning ** CalcSurfaceCentroid: 16 Surfaces have the Z coordinate < 0.
+   ** Warning ** BuildingSurface:Detailed="SURFACE 10", Sun Exposure="SUNEXPOSED".
+   **   ~~~   ** ..This surface is not exposed to External Environment.  Sun exposure has no effect.
+   ** Warning ** BuildingSurface:Detailed="SURFACE 11", Sun Exposure="SUNEXPOSED".
+   **   ~~~   ** ..This surface is not exposed to External Environment.  Sun exposure has no effect.
+   ** Warning ** BuildingSurface:Detailed="SURFACE 2", Sun Exposure="SUNEXPOSED".
+   **   ~~~   ** ..This surface is not exposed to External Environment.  Sun exposure has no effect.
+   ** Warning ** BuildingSurface:Detailed="SURFACE 4", Sun Exposure="SUNEXPOSED".
+   **   ~~~   ** ..This surface is not exposed to External Environment.  Sun exposure has no effect.
+   ** Warning ** BuildingSurface:Detailed="SURFACE 5", Sun Exposure="SUNEXPOSED".
+   **   ~~~   ** ..This surface is not exposed to External Environment.  Sun exposure has no effect.
+   ** Warning ** BuildingSurface:Detailed="SURFACE 7", Sun Exposure="SUNEXPOSED".
+   **   ~~~   ** ..This surface is not exposed to External Environment.  Sun exposure has no effect.
+   ** Warning ** BuildingSurface:Detailed="SURFACE 8", Sun Exposure="SUNEXPOSED".
+   **   ~~~   ** ..This surface is not exposed to External Environment.  Sun exposure has no effect.
+   ** Warning ** BuildingSurface:Detailed="SURFACE 9", Sun Exposure="SUNEXPOSED".
+   **   ~~~   ** ..This surface is not exposed to External Environment.  Sun exposure has no effect.
+   ** Warning ** CalcSurfaceCentroid: 9 Surfaces have the Z coordinate < 0.
    **   ~~~   ** ...in any calculations, Wind Speed will be 0.0 for these surfaces.
    **   ~~~   ** ...in any calculations, Outside temperatures will be the outside temperature + 9.750E-003 for these surfaces.
    **   ~~~   ** ...that is, these surfaces will have conditions as though at ground level.
-   ** Warning ** CheckUsedConstructions: There are 4 nominally unused constructions in input.
+   ** Warning ** CheckUsedConstructions: There are 11 nominally unused constructions in input.
    **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
    ************* Beginning System Sizing Calculations
    ** Severe  ** Sizing: Coil:Cooling:DX:SingleSpeed "1 SPD DX CLG COIL": Rated air volume flow rate per watt of rated total cooling capacity is out of range.
-   **   ~~~   ** Min Rated Vol Flow Per Watt=[4.027E-005], Rated Vol Flow Per Watt=[1.746E-004], Max Rated Vol Flow Per Watt=[6.041E-005]. See Input Output Reference Manual for valid range.
-   ** Warning ** Output:Meter: invalid Name="GAS:FACILITY" - not found.
+   **   ~~~   ** Min Rated Vol Flow Per Watt=[4.027E-005], Rated Vol Flow Per Watt=[1.444E-004], Max Rated Vol Flow Per Watt=[6.041E-005]. See Input Output Reference Manual for valid range.
    ** Warning ** Output:Meter: invalid Name="DISTRICTCOOLING:FACILITY" - not found.
    ** Warning ** Output:Meter: invalid Name="DISTRICTHEATING:FACILITY" - not found.
    ************* Testing Individual Branch Integrity
@@ -24,8 +44,8 @@ Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.19 09:33,IDD_V
    ************* All Return Air Paths passed integrity testing
    ************* No node connection errors were found.
    ************* Beginning Simulation
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="1 SPD DX CLG COIL" - Air volume flow rate per watt of rated total cooling capacity is out of range at 1.782E-004 m3/s/W.
-   **   ~~~   **  Environment=DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB, at Simulation time=07/21 08:10 - 08:20
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="1 SPD DX CLG COIL" - Air volume flow rate per watt of rated total cooling capacity is out of range at 1.477E-004 m3/s/W.
+   **   ~~~   **  Environment=DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB, at Simulation time=07/21 08:20 - 08:30
    **   ~~~   ** Expected range for VolumeFlowPerRatedTotalCapacity=[2.684E-005--6.713E-005]
    **   ~~~   ** Possible causes include inconsistent air flow rates in system components,
    **   ~~~   ** or variable air volume [VAV] system using incorrect coil type.
@@ -35,10 +55,10 @@ Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.19 09:33,IDD_V
    ************* The following recurring error messages occurred.
    *************
    *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="1 SPD DX CLG COIL" - Air volume flow rate per watt of rated total cooling capacity is out of range error continues...
-   *************  **   ~~~   **   This error occurred 14274 total times;
+   *************  **   ~~~   **   This error occurred 33766 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.839609E-004  Min=1.718657E-004
+   *************  **   ~~~   **   Max=1.522197E-004  Min=1.430588E-004
    *************
    *************
    ************* ===== Final Error Summary =====
@@ -49,5 +69,5 @@ Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.19 09:33,IDD_V
    ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Sizing Error Summary. During Sizing: 3 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 14281 Warning; 1 Severe Errors; Elapsed Time=00hr 00min 29.00sec
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 12 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 33781 Warning; 1 Severe Errors; Elapsed Time=00hr 00min 40.00sec

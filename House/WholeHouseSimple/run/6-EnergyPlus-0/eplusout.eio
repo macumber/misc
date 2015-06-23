@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.19 09:33
+Program Version,EnergyPlus, Version 8.2.0-8397c2e30b, YMD=2015.06.23 12:52
 ! <Version>, Version ID
  Version, 8.2
 ! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
@@ -54,37 +54,42 @@ Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,200,0.10,1000.
 ! <Shading Summary>, Number of Fixed Detached Shades, Number of Building Detached Shades, Number of Attached Shades
  Shading Summary,0,0,0
 ! <Zone Summary>, Number of Zones, Number of Zone Surfaces, Number of SubSurfaces
- Zone Summary,4,72,22
+ Zone Summary,5,76,13
 ! <Zone Information>,Zone Name,North Axis {deg},Origin X-Coordinate {m},Origin Y-Coordinate {m},Origin Z-Coordinate {m},Centroid X-Coordinate {m},Centroid Y-Coordinate {m},Centroid Z-Coordinate {m},Type,Zone Multiplier,Zone List Multiplier,Minimum X {m},Maximum X {m},Minimum Y {m},Maximum Y {m},Minimum Z {m},Maximum Z {m},Ceiling Height {m},Volume {m3},Zone Inside Convection Algorithm {Simple-Detailed-CeilingDiffuser-TrombeWall},Zone Outside Convection Algorithm {Simple-Detailed-Tarp-MoWitt-DOE-2-BLAST}, Floor Area {m2},Exterior Gross Wall Area {m2},Exterior Net Wall Area {m2},Exterior Window Area {m2}, Number of Surfaces, Number of SubSurfaces, Number of Shading SubSurfaces,  Part of Total Building Area
- Zone Information, BASEMENT,0.0,2.34,-9.79,-1.64,-2.14,-6.76,-0.50,1,1,1,-5.78,2.34,-9.79,-2.71,-1.64,0.65,2.29,99.70,TARP,DOE-2,46.05,79.22,63.38,15.84,15,8,0,Yes
+ Zone Information, BASEMENT,0.0,2.34,-9.79,-1.64,-2.14,-6.76,-0.50,1,1,1,-5.78,2.34,-9.79,-2.71,-1.64,0.65,2.29,99.70,TARP,DOE-2,46.05,9.75,7.80,1.95,15,1,0,Yes
  Zone Information, FIRST FLOOR,0.0,6.04,-9.79,0.65,2.06,-3.44,2.09,1,1,1,-2.81,6.04,-9.79,1.82,0.65,3.54,2.90,230.55,TARP,DOE-2,80.84,105.65,84.52,21.13,14,6,0,Yes
- Zone Information, GARAGE,0.0,-5.78,-9.79,0.65,-2.55,-6.65,2.09,1,1,1,-5.78,0.68,-9.79,-3.51,0.65,3.54,2.90,117.39,TARP,DOE-2,40.54,45.48,45.48,0.00,9,0,0,Yes
- Zone Information, SECOND FLOOR,0.0,0.68,1.82,3.54,0.96,-5.00,4.76,1,1,1,-5.78,6.04,-9.79,1.82,3.54,5.98,2.44,247.09,TARP,DOE-2,102.76,129.56,103.65,25.91,12,8,0,Yes
+ Zone Information, GARAGE,0.0,-5.78,-9.79,0.65,-2.55,-6.65,2.09,1,1,1,-5.78,0.68,-9.79,-3.51,0.65,3.54,2.90,117.39,TARP,DOE-2,40.54,45.48,37.17,0.00,9,1,0,Yes
+ Zone Information, SECOND FLOOR,0.0,0.68,1.82,3.54,0.74,-4.53,4.70,1,1,1,-5.78,6.04,-9.79,1.82,3.54,5.98,2.22,273.27,TARP,DOE-2,121.38,101.26,84.16,17.10,14,5,0,Yes
+ Zone Information, THERMAL ZONE 1,0.0,6.04,1.82,5.98,1.09,-5.01,6.38,1,1,1,-5.78,6.04,-9.79,1.82,5.98,7.48,0.75,88.35,TARP,DOE-2,102.76,17.72,17.72,0.00,11,0,0,Yes
 ! <Zone Internal Gains/Equipment Information - Nominal>,Zone Name, Floor Area {m2},# Occupants,Area per Occupant {m2/person},Occupant per Area {person/m2},Interior Lighting {W/m2},Electric Load {W/m2},Gas Load {W/m2},Other Load {W/m2},Hot Water Eq {W/m2},Steam Equipment {W/m2},Sum Loads per Area {W/m2},Outdoor Controlled Baseboard Heat
  Zone Internal Gains, BASEMENT,46.05,0.0,N/A,0.000,3.337,2.691,0.000,0.000,0.000,0.000,6.028,No
  Zone Internal Gains, FIRST FLOOR,80.84,2.3,35.324,2.831E-002,3.875,5.382,0.000,0.000,0.000,0.000,9.257,No
  Zone Internal Gains, GARAGE,40.54,0.0,N/A,0.000,3.337,2.691,0.000,0.000,0.000,0.000,6.028,No
- Zone Internal Gains, SECOND FLOOR,102.76,2.9,35.324,2.831E-002,3.875,5.382,0.000,0.000,0.000,0.000,9.257,No
+ Zone Internal Gains, SECOND FLOOR,121.38,3.4,35.324,2.831E-002,3.875,5.382,0.000,0.000,0.000,0.000,9.257,No
+ Zone Internal Gains, THERMAL ZONE 1,102.76,0.0,N/A,0.000,3.337,2.691,0.000,0.000,0.000,0.000,6.028,No
 ! <People Internal Gains - Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Number of People {},People/Floor Area {person/m2},Floor Area per person {m2/person},Fraction Radiant,Fraction Convected,Sensible Fraction Calculation,Activity level,ASHRAE 55 Warnings,Carbon Dioxide Generation Rate,Nominal Minimum Number of People,Nominal Maximum Number of People
  People Internal Gains, FIRST FLOOR DOE REF 1980-2004 - MIDRISEAPARTMENT - APARTMENT PEOPLE,MIDRISEAPARTMENT APARTMENT OCC,FIRST FLOOR,80.84,2.3,2.3,2.831E-002,35.324,0.300,0.700,AutoCalculate,MIDRISEAPARTMENT ACTIVITY,No,3.8200E-008,1,2
- People Internal Gains, SECOND FLOOR DOE REF 1980-2004 - MIDRISEAPARTMENT - APARTMENT PEOPLE,MIDRISEAPARTMENT APARTMENT OCC,SECOND FLOOR,102.76,2.9,2.9,2.831E-002,35.324,0.300,0.700,AutoCalculate,MIDRISEAPARTMENT ACTIVITY,No,3.8200E-008,1,3
+ People Internal Gains, SECOND FLOOR DOE REF 1980-2004 - MIDRISEAPARTMENT - APARTMENT PEOPLE,MIDRISEAPARTMENT APARTMENT OCC,SECOND FLOOR,121.38,3.4,3.4,2.831E-002,35.324,0.300,0.700,AutoCalculate,MIDRISEAPARTMENT ACTIVITY,No,3.8200E-008,1,3
 ! <Lights Internal Gains - Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Lighting Level {W},Lights/Floor Area {W/m2},Lights per person {W/person},Fraction Return Air,Fraction Radiant,Fraction Short Wave,Fraction Convected,Fraction Replaceable,End-Use Category,Nominal Minimum Lighting Level {W},Nominal Maximum Lighting Level {W}
  Lights Internal Gains, FIRST FLOOR DOE REF 1980-2004 - MIDRISEAPARTMENT - APARTMENT LIGHTS,MIDRISEAPARTMENT APARTMENT LIGHT,FIRST FLOOR,80.84,2.3,313.248,3.875,136.882,0.000,0.000,0.000,1.000,1.000,General,20.988,313.248
- Lights Internal Gains, SECOND FLOOR DOE REF 1980-2004 - MIDRISEAPARTMENT - APARTMENT LIGHTS,MIDRISEAPARTMENT APARTMENT LIGHT,SECOND FLOOR,102.76,2.9,398.205,3.875,136.882,0.000,0.000,0.000,1.000,1.000,General,26.680,398.205
+ Lights Internal Gains, SECOND FLOOR DOE REF 1980-2004 - MIDRISEAPARTMENT - APARTMENT LIGHTS,MIDRISEAPARTMENT APARTMENT LIGHT,SECOND FLOOR,121.38,3.4,470.340,3.875,136.882,0.000,0.000,0.000,1.000,1.000,General,31.513,470.340
  Lights Internal Gains, BASEMENT DOE REF 1980-2004 - WAREHOUSE - BULK LIGHTS,MIDRISEAPARTMENT APARTMENT LIGHT,BASEMENT,46.05,0.0,153.674,3.337,N/A,0.000,0.000,0.000,1.000,1.000,General,10.296,153.674
  Lights Internal Gains, GARAGE DOE REF 1980-2004 - WAREHOUSE - BULK LIGHTS,MIDRISEAPARTMENT APARTMENT LIGHT,GARAGE,40.54,0.0,135.274,3.337,N/A,0.000,0.000,0.000,1.000,1.000,General,9.063,135.274
+ Lights Internal Gains, THERMAL ZONE 1 DOE REF 1980-2004 - WAREHOUSE - BULK LIGHTS,MIDRISEAPARTMENT APARTMENT LIGHT,THERMAL ZONE 1,102.76,0.0,342.899,3.337,N/A,0.000,0.000,0.000,1.000,1.000,General,22.974,342.899
 ! <ElectricEquipment Internal Gains - Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Equipment Level {W},Equipment/Floor Area {W/m2},Equipment per person {W/person},Fraction Latent,Fraction Radiant,Fraction Lost,Fraction Convected,End-Use SubCategory,Nominal Minimum Equipment Level {W},Nominal Maximum Equipment Level {W}
  ElectricEquipment Internal Gains, FIRST FLOOR DOE REF 1980-2004 - MIDRISEAPARTMENT - APARTMENT ELECTRIC EQUIPMENT,MIDRISEAPARTMENT APARTMENT EQUIP,FIRST FLOOR,80.84,2.3,435.067,5.382,190.114,0.000,0.000,0.000,1.000,General,165.325,435.067
- ElectricEquipment Internal Gains, SECOND FLOOR DOE REF 1980-2004 - MIDRISEAPARTMENT - APARTMENT ELECTRIC EQUIPMENT,MIDRISEAPARTMENT APARTMENT EQUIP,SECOND FLOOR,102.76,2.9,553.063,5.382,190.114,0.000,0.000,0.000,1.000,General,210.164,553.063
+ ElectricEquipment Internal Gains, SECOND FLOOR DOE REF 1980-2004 - MIDRISEAPARTMENT - APARTMENT ELECTRIC EQUIPMENT,MIDRISEAPARTMENT APARTMENT EQUIP,SECOND FLOOR,121.38,3.4,653.250,5.382,190.114,0.000,0.000,0.000,1.000,General,248.235,653.250
  ElectricEquipment Internal Gains, BASEMENT DOE REF 1980-2004 - WAREHOUSE - BULK ELECTRIC EQUIPMENT,MIDRISEAPARTMENT APARTMENT EQUIP,BASEMENT,46.05,0.0,123.931,2.691,N/A,0.000,0.000,0.000,1.000,General,47.094,123.931
  ElectricEquipment Internal Gains, GARAGE DOE REF 1980-2004 - WAREHOUSE - BULK ELECTRIC EQUIPMENT,MIDRISEAPARTMENT APARTMENT EQUIP,GARAGE,40.54,0.0,109.092,2.691,N/A,0.000,0.000,0.000,1.000,General,41.455,109.092
+ ElectricEquipment Internal Gains, THERMAL ZONE 1 DOE REF 1980-2004 - WAREHOUSE - BULK ELECTRIC EQUIPMENT,MIDRISEAPARTMENT APARTMENT EQUIP,THERMAL ZONE 1,102.76,0.0,276.531,2.691,N/A,0.000,0.000,0.000,1.000,General,105.082,276.531
 ! <Shadowing/Sun Position Calculations> [Annual Simulations], Calculation Method,Value {days}, Allowable Number Figures in Shadow Overlap {}, Polygon Clipping Algorithm, Sky Diffuse Modeling Algorithm
 Shadowing/Sun Position Calculations,AverageOverDaysInFrequency,7,15000,SutherlandHodgman,SimpleSkyDiffuseModeling
 ! <Infiltration Airflow Stats - Nominal>,Name,Schedule Name,Zone Name, Zone Floor Area {m2}, # Zone Occupants,Design Volume Flow Rate {m3/s},Volume Flow Rate/Floor Area {m3/s/m2},Volume Flow Rate/Exterior Surface Area {m3/s/m2},ACH - Air Changes per Hour,Equation A - Constant Term Coefficient {},Equation B - Temperature Term Coefficient {1/C},Equation C - Velocity Term Coefficient {s/m}, Equation D - Velocity Squared Term Coefficient {s2/m2}
- ZoneInfiltration Airflow Stats, FIRST FLOOR DOE REF 1980-2004 - MIDRISEAPARTMENT - APARTMENT INFILTRATION,MIDRISEAPARTMENT INFIL,FIRST FLOOR,80.84,2.3,0.141,1.743E-003,1.134E-003,2.200,1.000,0.000,0.000,0.000
- ZoneInfiltration Airflow Stats, SECOND FLOOR DOE REF 1980-2004 - MIDRISEAPARTMENT - APARTMENT INFILTRATION,MIDRISEAPARTMENT INFIL,SECOND FLOOR,102.76,2.9,0.263,2.563E-003,1.134E-003,3.838,1.000,0.000,0.000,0.000
- ZoneInfiltration Airflow Stats, BASEMENT DOE REF 1980-2004 - WAREHOUSE - BULK INFILTRATION,ALWAYS ON,BASEMENT,46.05,0.0,9.254E-002,2.009E-003,1.134E-003,3.341,1.000,0.000,0.000,0.000
- ZoneInfiltration Airflow Stats, GARAGE DOE REF 1980-2004 - WAREHOUSE - BULK INFILTRATION,ALWAYS ON,GARAGE,40.54,0.0,5.157E-002,1.272E-003,1.134E-003,1.582,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats, FIRST FLOOR DOE REF 1980-2004 - MIDRISEAPARTMENT - APARTMENT INFILTRATION,MIDRISEAPARTMENT INFIL,FIRST FLOOR,80.84,2.3,0.120,1.482E-003,1.134E-003,1.871,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats, SECOND FLOOR DOE REF 1980-2004 - MIDRISEAPARTMENT - APARTMENT INFILTRATION,MIDRISEAPARTMENT INFIL,SECOND FLOOR,121.38,3.4,0.141,1.158E-003,1.134E-003,1.852,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats, BASEMENT DOE REF 1980-2004 - WAREHOUSE - BULK INFILTRATION,ALWAYS ON,BASEMENT,46.05,0.0,1.106E-002,2.402E-004,1.134E-003,0.399,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats, GARAGE DOE REF 1980-2004 - WAREHOUSE - BULK INFILTRATION,ALWAYS ON,GARAGE,40.54,0.0,6.099E-002,1.505E-003,1.134E-003,1.871,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats, THERMAL ZONE 1 DOE REF 1980-2004 - WAREHOUSE - BULK INFILTRATION,ALWAYS ON,THERMAL ZONE 1,102.76,0.0,0.145,1.409E-003,1.134E-003,5.898,1.000,0.000,0.000,0.000
 ! <AirFlow Model>, Simple
  AirFlow Model, Simple
 ! <RoomAir Model>, Zone Name, Mixing/Mundt/UCSDDV/UCSDCV/UCSDUFI/UCSDUFE/User Defined
@@ -92,6 +97,7 @@ RoomAir Model,BASEMENT,Mixing/Well-Stirred
 RoomAir Model,FIRST FLOOR,Mixing/Well-Stirred
 RoomAir Model,GARAGE,Mixing/Well-Stirred
 RoomAir Model,SECOND FLOOR,Mixing/Well-Stirred
+RoomAir Model,THERMAL ZONE 1,Mixing/Well-Stirred
 ! <AirflowNetwork Model:Control>, No Multizone or Distribution/Multizone with Distribution/Multizone without Distribution/Multizone with Distribution only during Fan Operation
 AirflowNetwork Model:Control,NoMultizoneOrDistribution
 ! <Zone Volume Capacitance Multiplier>, Sensible Heat Capacity Multiplier, Moisture Capacity Multiplier, Carbon Dioxide Capacity Multiplier, Generic Contaminant Capacity Multiplier
@@ -107,31 +113,33 @@ Zone Volume Capacitance Multiplier,   1.000 ,   1.000,   1.000,   1.000
  Cooling Sizing Factor Information, Zone FIRST FLOOR,   1.1500    
  Cooling Sizing Factor Information, Zone SECOND FLOOR,   1.1500    
 ! <Zone Sizing Information>, Zone Name, Load Type, Calc Des Load {W}, User Des Load {W}, Calc Des Air Flow Rate {m3/s}, User Des Air Flow Rate {m3/s}, Design Day Name, Date/Time of Peak, Temperature at Peak {C}, Humidity Ratio at Peak {kgWater/kgDryAir}, Floor Area {m2}, # Occupants, Calc Outdoor Air Flow Rate {m3/s}
- Zone Sizing Information, FIRST FLOOR, Cooling, 2484.35885, 2857.01267, 0.25468, 0.29288, DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB, 7/21 17:20:00, 30.36533, 6.86230E-003, 80.83808, 2.28845, 2.05329E-002
- Zone Sizing Information, FIRST FLOOR, Heating, 10194.02353, 12742.52942, 0.54714, 0.68392, DENVER CENTENNIAL  GOLDEN   N ANN HTG 99.6% CONDNS DB, 12/21 04:00:00, -18.80000, 8.88305E-004, 80.83808, 2.28845, 2.05329E-002
- Zone Sizing Information, SECOND FLOOR, Cooling, 5579.86168, 6416.84094, 0.57193, 0.65771, DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB, 7/21 17:20:00, 30.36533, 6.86230E-003, 102.76243, 2.90911, 2.61017E-002
- Zone Sizing Information, SECOND FLOOR, Heating, 17280.23869, 21600.29837, 0.92674, 1.15843, DENVER CENTENNIAL  GOLDEN   N ANN HTG 99.6% CONDNS DB, 12/21 04:00:00, -18.80000, 8.88305E-004, 102.76243, 2.90911, 2.61017E-002
+ Zone Sizing Information, FIRST FLOOR, Cooling, 2296.16210, 2640.58641, 0.23542, 0.27074, DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB, 7/21 17:20:00, 30.36533, 6.86230E-003, 80.83808, 2.28845, 2.05329E-002
+ Zone Sizing Information, FIRST FLOOR, Heating, 9061.36293, 11326.70366, 0.48645, 0.60806, DENVER CENTENNIAL  GOLDEN   N ANN HTG 99.6% CONDNS DB, 12/21 04:00:00, -18.80000, 8.88305E-004, 80.83808, 2.28845, 2.05329E-002
+ Zone Sizing Information, SECOND FLOOR, Cooling, 5483.98939, 6306.58780, 0.56225, 0.64658, DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB, 7/21 16:40:00, 31.27733, 6.86230E-003, 121.37787, 3.43610, 3.08300E-002
+ Zone Sizing Information, SECOND FLOOR, Heating, 13654.65463, 17068.31828, 0.73307, 0.91633, DENVER CENTENNIAL  GOLDEN   N ANN HTG 99.6% CONDNS DB, 12/21 04:00:00, -18.80000, 8.88305E-004, 121.37787, 3.43610, 3.08300E-002
 ! <System Sizing Information>, System Name, Field Description, Value
- System Sizing Information, AIR SYSTEM, Calculated Cooling Design Air Flow Rate [m3/s], 0.95059
- System Sizing Information, AIR SYSTEM, User Cooling Design Air Flow Rate [m3/s], 0.95059
- System Sizing Information, AIR SYSTEM, Calculated Heating Design Air Flow Rate [m3/s], 1.84235
- System Sizing Information, AIR SYSTEM, User Heating Design Air Flow Rate [m3/s], 1.84235
+ System Sizing Information, AIR SYSTEM, Calculated Cooling Design Air Flow Rate [m3/s], 0.91732
+ System Sizing Information, AIR SYSTEM, User Cooling Design Air Flow Rate [m3/s], 0.91732
+ System Sizing Information, AIR SYSTEM, Calculated Heating Design Air Flow Rate [m3/s], 1.52439
+ System Sizing Information, AIR SYSTEM, User Heating Design Air Flow Rate [m3/s], 1.52439
 ! <Component Sizing Information>, Component Type, Component Name, Input Field Description, Value
- Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 1, Design Size Maximum Air Flow Rate [m3/s], 0.68392
- Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 2, Design Size Maximum Air Flow Rate [m3/s], 1.15843
- Component Sizing Information, AirLoopHVAC, AIR SYSTEM, Design Supply Air Flow Rate [m3/s], 1.84235
+ Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 1, Design Size Maximum Air Flow Rate [m3/s], 0.60806
+ Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 2, Design Size Maximum Air Flow Rate [m3/s], 0.91633
+ Component Sizing Information, AirLoopHVAC, AIR SYSTEM, Design Supply Air Flow Rate [m3/s], 1.52439
 !<Controller:MechanicalVentilation>,Name,Availability Schedule Name,Demand Controlled Ventilation {Yes/No},System Outdoor Air Method,Zone Maximum Outdoor Air Fraction,Number of Zones,Zone Name,DSOA Name,DSZAD Name
  Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 1,ALWAYS ON DISCRETE,No,ZoneSum,1.00,2,FIRST FLOOR,DOE REF 1980-2004 - MIDRISEAPARTMENT - CORRIDOR VENTILATION,FIRST FLOOR DESIGN SPEC ZONE AIR DIST,SECOND FLOOR,DOE REF 1980-2004 - MIDRISEAPARTMENT - CORRIDOR VENTILATION,SECOND FLOOR DESIGN SPEC ZONE AIR DIST
- Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 1, Maximum Outdoor Air Flow Rate [m3/s], 1.84235
- Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 1, Minimum Outdoor Air Flow Rate [m3/s], 4.66345E-002
- Component Sizing Information, Coil:Cooling:DX:SingleSpeed, 1 SPD DX CLG COIL, Design Size Rated Air Flow Rate [m3/s], 1.84235
- Component Sizing Information, Coil:Cooling:DX:SingleSpeed, 1 SPD DX CLG COIL, Design Size Gross Rated Total Cooling Capacity [W], 26363.23022
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 1, Maximum Outdoor Air Flow Rate [m3/s], 1.52439
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 1, Minimum Outdoor Air Flow Rate [m3/s], 5.13629E-002
+ Component Sizing Information, Coil:Heating:Gas, COIL HEATING GAS 1, Design Size Nominal Capacity [W], 86924.48897
+ Component Sizing Information, Coil:Heating:Gas, COIL HEATING GAS 1, User-Specified Nominal Capacity [W], 26376.39630
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, 1 SPD DX CLG COIL, Design Size Rated Air Flow Rate [m3/s], 1.52439
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, 1 SPD DX CLG COIL, Design Size Gross Rated Total Cooling Capacity [W], 21284.09316
  Component Sizing Information, Coil:Cooling:DX:SingleSpeed, 1 SPD DX CLG COIL, User-Specified Gross Rated Total Cooling Capacity [W], 10550.00000
  Component Sizing Information, Coil:Cooling:DX:SingleSpeed, 1 SPD DX CLG COIL, Design Size Gross Rated Sensible Heat Ratio, 0.79866
 ! <DX Cooling Coil Standard Rating Information>, Component Type, Component Name, Standard Rating (Net) Cooling Capacity {W}, Standard Rated Net COP {W/W}, EER {Btu/W-h}, SEER {Btu/W-h}, IEER {Btu/W-h}
- DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, 1 SPD DX CLG COIL, 9151.9, 2.15, 7.34, 7.27, 6.39
- Component Sizing Information, Fan:VariableVolume, FAN VARIABLE VOLUME 1, Design Size Maximum Flow Rate [m3/s], 1.84235
- Component Sizing Information, Fan:VariableVolume, FAN VARIABLE VOLUME 1, User-Specified Maximum Flow Rate [m3/s], 0.66073
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, 1 SPD DX CLG COIL, 9397.8, 2.34, 8.00, 7.94, 7.14
+ Component Sizing Information, Fan:ConstantVolume, CONST SPD FAN, Design Size Maximum Flow Rate [m3/s], 1.52439
+ Component Sizing Information, Fan:ConstantVolume, CONST SPD FAN, User-Specified Maximum Flow Rate [m3/s], 0.66073
 ! <Environment>,Environment Name,Environment Type, Start Date, End Date, Start DayOfWeek, Duration {#days}, Source:Start DayOfWeek,  Use Daylight Saving, Use Holidays, Apply Weekend Holiday Rule,  Use Rain Values, Use Snow Values
 ! <Environment:Special Days>, Special Day Name, Special Day Type, Source, Start Date, Duration {#days}
 ! <Environment:Daylight Saving>, Daylight Saving Indicator, Source, Start Date, End Date
@@ -146,71 +154,79 @@ Environment:WarmupDays,  6
 ! <Tabular Report>,Style,Unit Conversion
 Tabular Report,HTML,None
 ! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
- Warmup Convergence Information,BASEMENT,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB,0.1543361648,8.0851373122E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,FIRST FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB,3.4532782122E-002,5.8438871901E-002,Pass,Pass,0.2402820758,1.3913513723,Pass,Pass
- Warmup Convergence Information,GARAGE,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB,9.1250856634E-002,4.6985214139E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,SECOND FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB,4.4100833860E-002,5.0353440410E-002,Pass,Pass,0.1274389859,0.4988403261,Pass,Pass
+ Warmup Convergence Information,BASEMENT,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB,3.2176293884E-002,3.9967833042E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,FIRST FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB,3.9356831190E-002,6.2127195346E-002,Pass,Pass,0.3216484020,2.3947338579,Pass,Pass
+ Warmup Convergence Information,GARAGE,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB,0.1019517449,5.0335218033E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,SECOND FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB,5.4852363337E-002,5.0050661291E-002,Pass,Pass,7.2607992583E-002,0.1055731989,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE 1,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DB=>MWB,0.3864847721,0.2427838595,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
 Environment,DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DP=>MDB,SizingPeriod:DesignDay,07/21,07/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A
 Environment:Daylight Saving,No,SizingPeriod:DesignDay
 Environment:Design Day Data,20.20,15.20,DefaultMultipliers,81198,0,4.9,0.00,No,No
 Environment:Design_Day_Misc,202,1084.4,0.2082,0.1365,1.0,-6.23,20.6,ASHRAETau
 Environment:WarmupDays,  6
- Warmup Convergence Information,BASEMENT,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DP=>MDB,0.1535425595,7.7009919483E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,FIRST FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DP=>MDB,0.1405346991,6.1536438230E-002,Pass,Pass,0.2237549573,1.4640043742,Pass,Pass
- Warmup Convergence Information,GARAGE,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DP=>MDB,9.6335987216E-002,4.6126777196E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,SECOND FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DP=>MDB,0.1512744376,6.4904390231E-002,Pass,Pass,2.7288856852E-002,3.9389375742E-002,Pass,Pass
+ Warmup Convergence Information,BASEMENT,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DP=>MDB,3.6754739236E-002,4.4799687132E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,FIRST FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DP=>MDB,3.9874274505E-002,6.6890207412E-002,Pass,Pass,6.3253420588E-002,7.5450113571E-002,Pass,Pass
+ Warmup Convergence Information,GARAGE,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DP=>MDB,0.1014781672,4.9218302099E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,SECOND FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DP=>MDB,6.2252520398E-002,7.1578008370E-002,Pass,Pass,0.1284883910,0.3854210088,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE 1,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS DP=>MDB,0.3921907757,0.2461105704,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
 Environment,DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS ENTH=>MDB,SizingPeriod:DesignDay,07/21,07/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A
 Environment:Daylight Saving,No,SizingPeriod:DesignDay
 Environment:Design Day Data,27.30,15.20,DefaultMultipliers,81198,0,4.9,0.00,No,No
 Environment:Design_Day_Misc,202,1084.4,0.2082,0.1365,1.0,-6.23,20.6,ASHRAETau
 Environment:WarmupDays,  6
- Warmup Convergence Information,BASEMENT,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS ENTH=>MDB,0.1570880066,8.0675574739E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,FIRST FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS ENTH=>MDB,9.5607170160E-002,7.9542730876E-002,Pass,Pass,0.1544744257,0.5368465415,Pass,Pass
- Warmup Convergence Information,GARAGE,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS ENTH=>MDB,9.5487623764E-002,4.6836147523E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,SECOND FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS ENTH=>MDB,0.1004002979,8.0406107930E-002,Pass,Pass,0.1252656092,0.4089875524,Pass,Pass
+ Warmup Convergence Information,BASEMENT,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS ENTH=>MDB,3.4472269592E-002,4.2097070954E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,FIRST FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS ENTH=>MDB,3.9162347921E-002,7.4876540627E-002,Pass,Pass,0.2718485404,0.9042606244,Pass,Pass
+ Warmup Convergence Information,GARAGE,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS ENTH=>MDB,0.1043836082,5.1661972176E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,SECOND FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS ENTH=>MDB,6.0796082311E-002,7.6200323972E-002,Pass,Pass,0.2312164242,1.0101530692,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE 1,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS ENTH=>MDB,0.3927797960,0.2459239175,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
 Environment,DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS WB=>MDB,SizingPeriod:DesignDay,07/21,07/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A
 Environment:Daylight Saving,No,SizingPeriod:DesignDay
 Environment:Design Day Data,27.30,15.20,DefaultMultipliers,81198,0,4.9,0.00,No,No
 Environment:Design_Day_Misc,202,1084.4,0.2082,0.1365,1.0,-6.23,20.6,ASHRAETau
 Environment:WarmupDays,  6
- Warmup Convergence Information,BASEMENT,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS WB=>MDB,0.1562099050,8.0560933199E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,FIRST FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS WB=>MDB,8.5391945413E-002,8.5409757560E-002,Pass,Pass,0.1375756475,0.3841062935,Pass,Pass
- Warmup Convergence Information,GARAGE,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS WB=>MDB,9.5066212983E-002,4.6990626537E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,SECOND FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS WB=>MDB,9.3528666168E-002,8.3821078560E-002,Pass,Pass,0.1355197306,0.4959742717,Pass,Pass
+ Warmup Convergence Information,BASEMENT,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS WB=>MDB,3.4420861355E-002,4.2107409614E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,FIRST FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS WB=>MDB,3.9074584415E-002,7.4581145492E-002,Pass,Pass,0.2800749621,0.9754988822,Pass,Pass
+ Warmup Convergence Information,GARAGE,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS WB=>MDB,0.1041352678,5.1602048008E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,SECOND FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS WB=>MDB,6.0786550896E-002,7.6038772239E-002,Pass,Pass,0.1925658878,0.6646089091,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE 1,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN CLG .4% CONDNS WB=>MDB,0.3886775133,0.2438321146,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
 Environment,DENVER CENTENNIAL  GOLDEN   N ANN HTG 99.6% CONDNS DB,SizingPeriod:DesignDay,12/21,12/21,WinterDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A
 Environment:Daylight Saving,No,SizingPeriod:DesignDay
 Environment:Design Day Data,-18.80,0.00,DefaultMultipliers,81198,340,3.0,0.00,No,No
 Environment:Design_Day_Misc,355,1232.8,0.1424,5.7719E-002,1.0,2.45,-23.5,ASHRAEClearSky
 Environment:WarmupDays,  6
- Warmup Convergence Information,BASEMENT,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG 99.6% CONDNS DB,1.0605492483E-002,2.4731927915E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,FIRST FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG 99.6% CONDNS DB,1.7423975085E-002,3.1573176753E-002,Pass,Pass,4.3071538522E-003,8.6214969537E-003,Pass,Pass
- Warmup Convergence Information,GARAGE,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG 99.6% CONDNS DB,1.4259373962E-002,2.7665977883E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,SECOND FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG 99.6% CONDNS DB,1.7117043655E-002,3.1197577208E-002,Pass,Pass,5.1663180677E-003,9.9811438867E-003,Pass,Pass
+ Warmup Convergence Information,BASEMENT,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG 99.6% CONDNS DB,1.3361136106E-002,3.2118908536E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,FIRST FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG 99.6% CONDNS DB,1.5309829389E-005,4.5123287135E-005,Pass,Pass,1.1301469745E-003,3.5151443510E-003,Pass,Pass
+ Warmup Convergence Information,GARAGE,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG 99.6% CONDNS DB,1.0906734527E-002,2.3174493785E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,SECOND FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG 99.6% CONDNS DB,3.3348185403E-004,3.2796384481E-004,Pass,Pass,1.1227223775E-003,3.5075443517E-003,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE 1,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG 99.6% CONDNS DB,1.8576151950E-002,4.2981508041E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
 Environment,DENVER CENTENNIAL  GOLDEN   N ANN HTG WIND 99.6% CONDNS WS=>MCDB,SizingPeriod:DesignDay,12/21,12/21,WinterDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A
 Environment:Daylight Saving,No,SizingPeriod:DesignDay
 Environment:Design Day Data,3.90,0.00,DefaultMultipliers,81198,340,12.2,0.00,No,No
 Environment:Design_Day_Misc,355,1232.8,0.1424,5.7719E-002,1.0,2.45,-23.5,ASHRAEClearSky
 Environment:WarmupDays,  6
- Warmup Convergence Information,BASEMENT,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG WIND 99.6% CONDNS WS=>MCDB,1.2249990806E-002,2.9700970294E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,FIRST FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG WIND 99.6% CONDNS WS=>MCDB,2.0598142167E-002,3.8092780676E-002,Pass,Pass,3.6875107394E-002,7.1732902477E-002,Pass,Pass
- Warmup Convergence Information,GARAGE,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG WIND 99.6% CONDNS WS=>MCDB,1.6335086740E-002,3.1720640624E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,SECOND FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG WIND 99.6% CONDNS WS=>MCDB,2.0114137718E-002,3.6256839765E-002,Pass,Pass,1.1191027609E-002,2.1588020993E-002,Pass,Pass
+ Warmup Convergence Information,BASEMENT,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG WIND 99.6% CONDNS WS=>MCDB,1.9046267136E-002,4.0670078155E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,FIRST FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG WIND 99.6% CONDNS WS=>MCDB,6.9564231471E-006,1.9769084889E-005,Pass,Pass,2.7846110429E-003,8.7256862209E-003,Pass,Pass
+ Warmup Convergence Information,GARAGE,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG WIND 99.6% CONDNS WS=>MCDB,1.2694134295E-002,2.6473979271E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,SECOND FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG WIND 99.6% CONDNS WS=>MCDB,3.3032653970E-004,3.8783760265E-004,Pass,Pass,2.8015980156E-003,8.8188412839E-003,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE 1,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HTG WIND 99.6% CONDNS WS=>MCDB,2.0953616235E-002,5.5395550601E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
 Environment,DENVER CENTENNIAL  GOLDEN   N ANN HUM_N 99.6% CONDNS DP=>MCDB,SizingPeriod:DesignDay,12/21,12/21,WinterDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A
 Environment:Daylight Saving,No,SizingPeriod:DesignDay
 Environment:Design Day Data,-10.90,0.00,DefaultMultipliers,81198,340,3.0,0.00,No,No
 Environment:Design_Day_Misc,355,1232.8,0.1424,5.7719E-002,1.0,2.45,-23.5,ASHRAEClearSky
 Environment:WarmupDays,  6
- Warmup Convergence Information,BASEMENT,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HUM_N 99.6% CONDNS DP=>MCDB,1.1005993346E-002,2.5984718608E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,FIRST FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HUM_N 99.6% CONDNS DP=>MCDB,1.8240532697E-002,3.3315104652E-002,Pass,Pass,6.5075107447E-003,1.2913250745E-002,Pass,Pass
- Warmup Convergence Information,GARAGE,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HUM_N 99.6% CONDNS DP=>MCDB,1.4748584608E-002,2.8755865607E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,SECOND FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HUM_N 99.6% CONDNS DP=>MCDB,1.8158494667E-002,3.3178525837E-002,Pass,Pass,6.4329989471E-003,1.2542317394E-002,Pass,Pass
+ Warmup Convergence Information,BASEMENT,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HUM_N 99.6% CONDNS DP=>MCDB,1.4199057765E-002,3.3965339035E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,FIRST FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HUM_N 99.6% CONDNS DP=>MCDB,1.2292886169E-005,3.6361966334E-005,Pass,Pass,1.4373988133E-003,4.4773698700E-003,Pass,Pass
+ Warmup Convergence Information,GARAGE,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HUM_N 99.6% CONDNS DP=>MCDB,1.1334460482E-002,2.4249626562E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,SECOND FLOOR,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HUM_N 99.6% CONDNS DP=>MCDB,3.3378897735E-004,3.3437505526E-004,Pass,Pass,1.4287376372E-003,4.4699258340E-003,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE 1,SizingPeriod: DENVER CENTENNIAL  GOLDEN   N ANN HUM_N 99.6% CONDNS DP=>MCDB,1.9294614915E-002,4.5495163716E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
 Environment,RUN PERIOD 1,WeatherFileRunPeriod,01/01,12/31,Sunday,365,Use RunPeriod Specified Day,No,No,No,Yes,Yes
 Environment:Daylight Saving,No,RunPeriod Object
 Environment:WarmupDays,  6
- Warmup Convergence Information,BASEMENT,RunPeriod: RUN PERIOD 1,9.8146012271E-002,7.5871099293E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,FIRST FLOOR,RunPeriod: RUN PERIOD 1,8.0817859782E-002,5.7379242651E-002,Pass,Pass,2.8929201513E-002,3.2715447793E-002,Pass,Pass
- Warmup Convergence Information,GARAGE,RunPeriod: RUN PERIOD 1,5.2823475879E-002,4.0773033956E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,SECOND FLOOR,RunPeriod: RUN PERIOD 1,9.5016530492E-002,6.3150594683E-002,Pass,Pass,1.4915101433E-002,2.0598858119E-002,Pass,Pass
+ Warmup Convergence Information,BASEMENT,RunPeriod: RUN PERIOD 1,2.6964057915E-002,3.3851056017E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,FIRST FLOOR,RunPeriod: RUN PERIOD 1,7.1488384717E-005,9.5493941969E-005,Pass,Pass,1.1609410049E-002,9.2727160664E-003,Pass,Pass
+ Warmup Convergence Information,GARAGE,RunPeriod: RUN PERIOD 1,5.2987325325E-002,3.6463919858E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,SECOND FLOOR,RunPeriod: RUN PERIOD 1,1.1902729038E-002,1.1961040050E-002,Pass,Pass,1.1616026760E-002,9.1047847906E-003,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE 1,RunPeriod: RUN PERIOD 1,0.1869218434,0.1423848774,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
 ! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
 Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
 End of Data
