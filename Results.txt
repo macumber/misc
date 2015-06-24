@@ -1,0 +1,3 @@
+Coiling size should be 3.5 Tons (we have a 3 Ton unit)
+Heating size should be 119886 Btu/h (looking at a 110,000 Ton unit)
+Blower should be 2627 cfm (looking at variable speed between 554-2125 cfm)
